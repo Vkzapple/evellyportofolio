@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evelly.com</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/three@0.150.1/build/three.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body class="bg-black text-white font-sans">
+    <!-- Navbar -->
+    <nav class="fixed top-4 left-1/2 transform -translate-x-1/2 z-50">
+      <div
+        class="bg-neutral-900/80 backdrop-blur-md rounded-2xl px-8 py-3 flex space-x-8 text-sm"
+      >
+        <a href="index.html" class="hover:text-gray-400 transition">Home</a>
+        <a href="projects.html" class="hover:text-gray-400 transition"
+          >Projects</a
+        >
+        <a href="about.html" class="hover:text-gray-400 transition">About</a>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <section
+      class="min-h-screen flex flex-col-reverse md:flex-row items-center justify-center px-8 md:px-20 bg-black text-white relative"
+    >
+      <!-- Left Text (tukar posisi di mobile) -->
+      <div
+        class="flex-1 flex flex-col items-center md:items-start space-y-6 z-10"
+      >
+        <!-- Social Icons -->
+        <div
+          class="flex justify-center md:justify-start space-x-4 text-white text-2xl z-20"
+        >
+          <a
+            href="https://github.com/Vkzapple"
+            target="_blank"
+            class="hover:text-gray-400 transition-colors duration-300"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/evelly-khanzania/"
+            target="_blank"
+            class="hover:text-gray-400 transition-colors duration-300"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/evellkz"
+            target="_blank"
+            class="hover:text-gray-400 transition-colors duration-300"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://x.com/ylleveznhk"
+            target="_blank"
+            class="hover:text-gray-400 transition-colors duration-300"
+          >
+            <i class="fab fa-x-twitter"></i>
+          </a>
+          <a
+            href="mailto:evellykhnz@gmail.com"
+            class="hover:text-gray-400 transition-colors duration-300"
+          >
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+
+        <!-- Headline -->
+        <h1 class="text-5xl md:text-6xl font-bold">
+          Hi, I'm <span class="text-gray-300">Evelly</span>.
+        </h1>
+        <p class="text-lg text-gray-400">Student | SoftEng @ SMKN 1 Jakarta</p>
+        <p id="typing-text" class="text-xl text-gray-300 h-6"></p>
+      </div>
+
+      <!-- Right Matrix Canvas (tukar posisi di mobile) -->
+      <div
+        class="flex-1 flex items-center justify-center mt-10 md:mt-0 relative w-full"
+      >
+        <canvas id="matrixCanvas" class="w-full h-[400px]"></canvas>
+      </div>
+    </section>
+
+    <!-- Experience & Awards -->
+    <section class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12">
+      <!-- Experiences -->
+      <div>
+        <h2 class="text-2xl font-bold mb-6">Experiences</h2>
+        <div class="space-y-4">
+          <div>
+            <h3 class="font-semibold">
+              Support - Systems Integration Engineer @ Himalaya Everest Jaya
+            </h3>
+            <p class="text-gray-400 text-sm">June 2025 - Present</p>
+          </div>
+          <div>
+            <h3 class="font-semibold">
+              Fullstack Web Developer Cohort @ Bank DBS | DBS Foundation
+            </h3>
+            <p class="text-gray-400 text-sm">January 2025 - May 2025</p>
+          </div>
+          <div>
+            <h3 class="font-semibold">
+              Student AI & IoT Engineer @ Samsung Innovation Campus
+            </h3>
+            <p class="text-gray-400 text-sm">January 2025 - June 2025</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Awards -->
+      <div>
+        <h2 class="text-2xl font-bold mb-6">Awards</h2>
+        <div class="space-y-4">
+          <div>
+            <h3 class="font-semibold">
+              3rd Place in Youth Scientific Writing – Technology Innovation @
+              DISPORA Jakarta Pusat
+            </h3>
+            <p class="text-gray-400 text-sm">July 2025</p>
+          </div>
+          <div>
+            <h3 class="font-semibold">
+              1st Place in UI/UX Design Competition @ Universitas Bakrie
+            </h3>
+            <p class="text-gray-400 text-sm">February 2025</p>
+          </div>
+          <div>
+            <h3 class="font-semibold">
+              1st Place in Cerdas Cermat LITECROWLED @ SMAN 2 Jakarta
+            </h3>
+            <p class="text-gray-400 text-sm">January 2025</p>
+          </div>
+          <div>
+            <h3 class="font-semibold">
+              Grand Finalist in Website Development Competition @ Yayasan
+              Sagasitas
+            </h3>
+            <p class="text-gray-400 text-sm">August 2024</p>
+          </div>
+          <div>
+            <h3 class="font-semibold">
+              Honorable Mention in English Competition @ National Science &
+              Social Competition
+            </h3>
+            <p class="text-gray-400 text-sm">November 2022</p>
+          </div>
+          <div>
+            <h3 class="font-semibold">
+              Honorable Mention in Social Competition @ National Science &
+              Social Competition
+            </h3>
+            <p class="text-gray-400 text-sm">November 2021</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="py-6 text-center text-gray-500 text-sm border-t border-neutral-800"
+    >
+      © 2025 EvellyKz. All rights reserved.
+    </footer>
+
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/2d3d6a2f3f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
