@@ -1,21 +1,20 @@
 const canvas = document.getElementById("matrixCanvas");
 const ctx = canvas.getContext("2d");
 
-// Full size canvas
 canvas.width = canvas.offsetWidth;
 canvas.height = canvas.offsetHeight;
 
-const letters = "EVELLY".split(""); // hanya huruf EVELLY
+const letters = "EVELLY".split(""); 
 const fontSize = 18;
 const columns = Math.floor(canvas.width / fontSize);
 
 const drops = Array(columns).fill(1);
 
 function draw() {
-  ctx.fillStyle = "rgba(0, 0, 0, 0.1)"; // efek fade
+  ctx.fillStyle = "rgba(0, 0, 0, 0.1)"; 
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-  ctx.fillStyle = "#FFFFFF"; // warna putih
+  ctx.fillStyle = "#FFFFFF"; 
   ctx.font = fontSize + "px monospace";
 
   for (let i = 0; i < drops.length; i++) {
@@ -36,7 +35,6 @@ window.addEventListener("resize", () => {
   canvas.height = canvas.offsetHeight;
 });
 
-// Typing effect
 const typingTarget = document.getElementById("typing-text");
 if (typingTarget) {
   const sentences = [
@@ -60,13 +58,13 @@ if (typingTarget) {
 
     if (!isDeleting && charIndex === currentSentence.length + 1) {
       isDeleting = true;
-      setTimeout(typeEffect, 1500); // pause setelah selesai ngetik
+      setTimeout(typeEffect, 1500);
       return;
     }
 
     if (isDeleting && charIndex === 0) {
       isDeleting = false;
-      sentenceIndex = (sentenceIndex + 1) % sentences.length; // looping
+      sentenceIndex = (sentenceIndex + 1) % sentences.length;
     }
 
     const speed = isDeleting ? 50 : 100;
@@ -76,9 +74,6 @@ if (typingTarget) {
   typeEffect();
 }
 
-// ======================
-// SMOOTH SCROLL NAV
-// ======================
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   anchor.addEventListener("click", function (e) {
     e.preventDefault();
@@ -89,9 +84,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 
-// ======================
-// ANIMATION ON SCROLL (fade-in cards / sections)
-// ======================
+
 const observer = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
