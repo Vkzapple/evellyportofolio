@@ -13,23 +13,46 @@
   </head>
   <body class="bg-black text-white font-sans">
     <!-- Navbar -->
-    <nav class="fixed top-4 left-1/2 transform -translate-x-1/2 z-50">
-      <div
-        class="bg-neutral-900/80 backdrop-blur-md rounded-2xl px-8 py-3 flex space-x-8 text-sm"
-      >
-        <a href="index.html" class="hover:text-gray-400 transition">Home</a>
-        <a href="projects.html" class="hover:text-gray-400 transition"
-          >Projects</a
-        >
-        <a href="about.html" class="hover:text-gray-400 transition">About</a>
-        <a
-          href="./EvellyResume.pdf"
-          target="_blank"
-          class="hover:text-gray-400 transition"
-          >Resume</a
-        >
-      </div>
-    </nav>
+   <nav class="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-full px-4 md:px-0">
+  <div
+    class="bg-neutral-900/80 backdrop-blur-md rounded-2xl px-6 py-3 flex justify-between items-center max-w-3xl mx-auto"
+  >
+    <!-- Logo / Brand -->
+    <a href="index.html" class="font-bold text-lg">Evelly</a>
+
+    <!-- Desktop Menu -->
+    <div class="hidden md:flex space-x-8 text-sm">
+      <a href="index.html" class="hover:text-gray-400 transition">Home</a>
+      <a href="projects.html" class="hover:text-gray-400 transition">Projects</a>
+      <a href="writings.html" class="hover:text-gray-400 transition">Writings</a>
+      <a href="about.html" class="hover:text-gray-400 transition">About</a>
+      <a href="./EvellyResume.pdf" target="_blank" class="hover:text-gray-400 transition">Resume</a>
+    </div>
+
+    <!-- Hamburger Button (Mobile) -->
+    <button
+      id="menu-toggle"
+      class="md:hidden flex flex-col space-y-1 focus:outline-none"
+    >
+      <span class="block w-6 h-0.5 bg-white"></span>
+      <span class="block w-6 h-0.5 bg-white"></span>
+      <span class="block w-6 h-0.5 bg-white"></span>
+    </button>
+  </div>
+
+  <!-- Mobile Dropdown -->
+  <div
+    id="mobile-menu"
+    class="hidden flex-col items-center mt-2 space-y-4 bg-neutral-900/90 backdrop-blur-md rounded-2xl py-4 text-sm max-w-3xl mx-auto"
+  >
+    <a href="index.html" class="hover:text-gray-400 transition">Home</a>
+    <a href="projects.html" class="hover:text-gray-400 transition">Projects</a>
+    <a href="writings.html" class="hover:text-gray-400 transition">Writings</a>
+    <a href="about.html" class="hover:text-gray-400 transition">About</a>
+    <a href="./EvellyResume.pdf" target="_blank" class="hover:text-gray-400 transition">Resume</a>
+  </div>
+</nav>
+
     <!-- Hero Section -->
     <section
       class="min-h-screen flex flex-col-reverse md:flex-row items-center justify-center px-8 md:px-20 bg-black text-white relative"
