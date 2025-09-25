@@ -7,18 +7,46 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-black text-white font-sans">
-    <!-- Navbar -->
-    <nav class="fixed top-4 left-1/2 transform -translate-x-1/2 z-50">
-      <div
-        class="bg-neutral-900/80 backdrop-blur-md rounded-2xl px-8 py-3 flex space-x-8 text-sm"
-      >
-        <a href="index.html" class="hover:text-gray-400 transition">Home</a>
-        <a href="projects.html" class="hover:text-gray-400 transition">Projects</a>
-        <a href="writings.html" class="text-white font-semibold">Writings</a>
-        <a href="about.html" class="hover:text-gray-400 transition">About</a>
-        <a href="./EvellyResume.pdf" target="_blank" class="hover:text-gray-400 transition">Resume</a>
-      </div>
-    </nav>
+      <!-- Navbar -->
+   <nav class="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-full px-4 md:px-0">
+  <div
+    class="bg-neutral-900/80 backdrop-blur-md rounded-2xl px-6 py-3 flex justify-between items-center max-w-3xl mx-auto"
+  >
+    <!-- Logo / Brand -->
+    <a href="index.html" class="font-bold text-lg">Evelly</a>
+
+    <!-- Desktop Menu -->
+    <div class="hidden md:flex space-x-8 text-sm">
+      <a href="index.html" class="hover:text-gray-400 transition">Home</a>
+      <a href="projects.html" class="hover:text-gray-400 transition">Projects</a>
+      <a href="writings.html" class="hover:text-gray-400 transition">Writings</a>
+      <a href="about.html" class="hover:text-gray-400 transition">About</a>
+      <a href="./EvellyResume.pdf" target="_blank" class="hover:text-gray-400 transition">Resume</a>
+    </div>
+
+    <!-- Hamburger Button (Mobile) -->
+    <button
+      id="menu-toggle"
+      class="md:hidden flex flex-col space-y-1 focus:outline-none"
+    >
+      <span class="block w-6 h-0.5 bg-white"></span>
+      <span class="block w-6 h-0.5 bg-white"></span>
+      <span class="block w-6 h-0.5 bg-white"></span>
+    </button>
+  </div>
+
+  <!-- Mobile Dropdown -->
+  <div
+    id="mobile-menu"
+    class="hidden flex-col items-center mt-2 space-y-4 bg-neutral-900/90 backdrop-blur-md rounded-2xl py-4 text-sm max-w-3xl mx-auto"
+  >
+    <a href="index.html" class="hover:text-gray-400 transition">Home</a>
+    <a href="projects.html" class="hover:text-gray-400 transition">Projects</a>
+    <a href="writings.html" class="hover:text-gray-400 transition">Writings</a>
+    <a href="about.html" class="hover:text-gray-400 transition">About</a>
+    <a href="./EvellyResume.pdf" target="_blank" class="hover:text-gray-400 transition">Resume</a>
+  </div>
+</nav>
 
     <!-- Writings Section -->
     <section class="pt-32 pb-20 px-6 md:px-16">
@@ -30,7 +58,7 @@
           <div class="p-6">
             <h2 class="text-xl font-semibold mb-2">Karya Ilmiah Pemuda 2025 @ Dispora Jakarta Pusat</h2>
             <p class="text-gray-300 text-sm mb-4">
-              Karya Tulis Ilmiah tentang inovasi teknologi berjudul SIGEMA.
+              Karya Tulis Ilmiah tentang inovasi teknologi berjudul SIGEMA untuk menyelesaikan masalah korosi dalam lemari penyimpanan (Arsip)
             </p>
             <a href="sigema.pdf" target="_blank" class="text-blue-400 underline text-sm">
               Baca Selengkapnya →
@@ -39,11 +67,22 @@
         </div>
         <div class="bg-neutral-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition">
           <div class="p-6">
-            <h2 class="text-xl font-semibold mb-2">Informatics Fest 2025 @ Universitas Padjajaran</h2>
+            <h2 class="text-xl font-semibold mb-2"> Essay Competition @ Informatics Fest Universitas Padjajaran 2025</h2>
             <p class="text-gray-300 text-sm mb-4">
-              Esai tentang platform DataJustice untuk mendeteksi BIAS Dataset.
+              Esai tentang inovasi platform DataJustice berbasis Artificial Intelligence (AI) untuk mendeteksi BIAS Dataset dengan tujuan menciptakan keadilan di masyarakat dan sebagai langkah baru untuk edukasi bahaya AI di lingkungan masyarakat
             </p>
             <a href="IFestEsai_EvellyKhanzaniaPutri.pdf" target="_blank" class="text-blue-400 underline text-sm">
+              Baca Selengkapnya →
+            </a>
+          </div>
+        </div>
+        <div class="bg-neutral-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition">
+          <div class="p-6">
+            <h2 class="text-xl font-semibold mb-2">Olimpiade Geografi dan Geosains @ FITB ITB 2025</h2>
+            <p class="text-gray-300 text-sm mb-4">
+            sebuah karya tulis ilmiah dalam sub-lomba "Science Project" yang diselenggarakan oleh Institut Teknologi Bandung. Dalam Karya Tulis ini membahas inovasi alat monitoring berbasis IoT yaitu "Wetherra"
+            </p>
+            <a href="Ogg_ITB.pdf" target="_blank" class="text-blue-400 underline text-sm">
               Baca Selengkapnya →
             </a>
           </div>
