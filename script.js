@@ -88,3 +88,31 @@ if (menuToggle && mobileMenu) {
     mobileMenu.classList.add("transition", "duration-300");
   });
 }
+
+
+    // Filter logic
+    const filterButtons = document.querySelectorAll(".filter-btn");
+    const projectCards = document.querySelectorAll(".project-card");
+
+    filterButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const filter = button.getAttribute("data-filter").toLowerCase();
+
+        filterButtons.forEach((btn) =>
+          btn.classList.remove("ring-2", "ring-blue-400")
+        );
+        button.classList.add("ring-2", "ring-blue-400");
+
+        projectCards.forEach((card) => {
+          const categories = card
+            .getAttribute("data-category")
+            .toLowerCase()
+            .split(" ");
+          if (filter === "all" || categories.includes(filter)) {
+            card.classList.remove("hidden");
+          } else {
+            card.classList.add("hidden");
+          }
+        });
+      });
+    });
