@@ -1,284 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Evelly.com</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
-  </head>
-  <body class="bg-black text-white font-sans">
-    <!-- Navbar -->
-   <nav class="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-full px-4 md:px-0">
-  <div
-    class="bg-neutral-900/80 backdrop-blur-md rounded-2xl px-6 py-3 flex justify-between items-center max-w-3xl mx-auto"
-  >
-    <!-- Logo / Brand -->
-    <a href="projects.html" class="font-bold text-lg">Projects</a>
 
-    <!-- Desktop Menu -->
-    <div class="hidden md:flex space-x-8 text-sm">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evelly.com</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body class="bg-black text-white font-sans">
+  <!-- Navbar -->
+  <nav class="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-full px-4 md:px-0">
+    <div
+      class="bg-neutral-900/80 backdrop-blur-md rounded-2xl px-6 py-3 flex justify-between items-center max-w-3xl mx-auto">
+      <a href="projects.html" class="font-bold text-lg">Projects</a>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex space-x-8 text-sm">
+        <a href="index.html" class="hover:text-gray-400 transition">Home</a>
+        <a href="projects.html" class="hover:text-gray-400 transition">Projects</a>
+        <a href="writings.html" class="hover:text-gray-400 transition">Writings</a>
+        <a href="about.html" class="hover:text-gray-400 transition">About</a>
+        <a href="./EvellyResume.pdf" target="_blank" class="hover:text-gray-400 transition">Resume</a>
+      </div>
+
+      <!-- Hamburger Button (Mobile) -->
+      <button id="menu-toggle" class="md:hidden flex flex-col space-y-1 focus:outline-none">
+        <span class="block w-6 h-0.5 bg-white"></span>
+        <span class="block w-6 h-0.5 bg-white"></span>
+        <span class="block w-6 h-0.5 bg-white"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Dropdown -->
+    <div id="mobile-menu"
+      class="hidden flex-col items-center mt-2 space-y-4 bg-neutral-900/90 backdrop-blur-md rounded-2xl py-4 text-sm max-w-3xl mx-auto">
       <a href="index.html" class="hover:text-gray-400 transition">Home</a>
       <a href="projects.html" class="hover:text-gray-400 transition">Projects</a>
       <a href="writings.html" class="hover:text-gray-400 transition">Writings</a>
       <a href="about.html" class="hover:text-gray-400 transition">About</a>
       <a href="./EvellyResume.pdf" target="_blank" class="hover:text-gray-400 transition">Resume</a>
     </div>
+  </nav>
 
-    <!-- Hamburger Button (Mobile) -->
-    <button
-      id="menu-toggle"
-      class="md:hidden flex flex-col space-y-1 focus:outline-none"
-    >
-      <span class="block w-6 h-0.5 bg-white"></span>
-      <span class="block w-6 h-0.5 bg-white"></span>
-      <span class="block w-6 h-0.5 bg-white"></span>
-    </button>
-  </div>
+  <!-- Projects Section -->
+  <section class="pt-32 pb-20 px-6 md:px-16">
+    <h1 class="text-4xl font-bold mb-12 text-center">Evell's Projects</h1>
 
-  <!-- Mobile Dropdown -->
-  <div
-    id="mobile-menu"
-    class="hidden flex-col items-center mt-2 space-y-4 bg-neutral-900/90 backdrop-blur-md rounded-2xl py-4 text-sm max-w-3xl mx-auto"
-  >
-    <a href="index.html" class="hover:text-gray-400 transition">Home</a>
-    <a href="projects.html" class="hover:text-gray-400 transition">Projects</a>
-    <a href="writings.html" class="hover:text-gray-400 transition">Writings</a>
-    <a href="about.html" class="hover:text-gray-400 transition">About</a>
-    <a href="./EvellyResume.pdf" target="_blank" class="hover:text-gray-400 transition">Resume</a>
-  </div>
-</nav>
+    <!-- Filter Buttons -->
+    <div class="flex flex-wrap justify-center gap-3 mb-10">
+      <button
+        class="filter-btn bg-neutral-800 px-4 py-2 rounded-lg text-sm hover:bg-neutral-700 transition ring-2 ring-blue-400"
+        data-filter="all">All</button>
+      <button class="filter-btn bg-neutral-800 px-4 py-2 rounded-lg text-sm hover:bg-neutral-700 transition"
+        data-filter="IoT">IoT</button>
+      <button class="filter-btn bg-neutral-800 px-4 py-2 rounded-lg text-sm hover:bg-neutral-700 transition"
+        data-filter="Web">Web</button>
+      <button class="filter-btn bg-neutral-800 px-4 py-2 rounded-lg text-sm hover:bg-neutral-700 transition"
+        data-filter="AI">AI</button>
+      <button class="filter-btn bg-neutral-800 px-4 py-2 rounded-lg text-sm hover:bg-neutral-700 transition"
+        data-filter="UI/UX">UI/UX</button>
+    </div>
 
-    <!-- Projects Section -->
-    <section class="pt-32 pb-20 px-6 md:px-16">
-      <h1 class="text-4xl font-bold mb-12 text-center">Evell's Projects</h1>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Project Card -->
-        <div
-          class="bg-neutral-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition"
-        >
-          <img
-            src="./assets/signatext.png"
-            alt="Signatext"
-            class="w-full h-48 object-cover"
-          />
-          <div class="p-6">
-            <div class="flex items-center space-x-3 mb-3">
-              <h2 class="text-xl font-semibold">SignaText</h2>
-              <a href="https://signatext.vercel.app/" target="_blank"
-                ><i data-lucide="external-link" class="w-4 h-4"></i
-              ></a>
-              <a href="https://github.com/Vkzapple/Signatext" target="_blank"
-                ><i data-lucide="github" class="w-4 h-4"></i
-              ></a>
-            </div>
-            <p class="text-gray-300 text-sm mb-4">
-              SignaText is a project that combines Website Development and
-              Machine Learning models. In this project, my team and I created
-              SignaText with the goal of helping people with disabilities
-              communicate with the general public. Check out more information on
-              the website.
-            </p>
-            <div class="flex flex-wrap gap-2">
-              <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm"
-                >Python</span
-              >
-              <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm"
-                >Yolo</span
-              >
-              <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm"
-                >Laravel</span
-              >
-              <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm"
-                >Tailwind CSS</span
-              >
-              <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm"
-                >Vanilla.js</span
-              >
-              <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm"
-                >Cloudinary</span
-              >
-            </div>
+    <!-- Projects Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Project Card: SignaText -->
+      <div class="project-card bg-neutral-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition"
+        data-category="Web AI">
+        <img src="./assets/signatext.png" alt="Signatext" class="w-full h-48 object-cover" />
+        <div class="p-6">
+          <div class="flex items-center space-x-3 mb-3">
+            <h2 class="text-xl font-semibold">SignaText</h2>
+            <a href="https://signatext.vercel.app/" target="_blank"><i data-lucide="external-link"
+                class="w-4 h-4"></i></a>
+            <a href="https://github.com/Vkzapple/Signatext" target="_blank"><i data-lucide="github"
+                class="w-4 h-4"></i></a>
+          </div>
+          <p class="text-gray-300 text-sm mb-4">
+            SignaText combines Website Development and Machine Learning to help people with disabilities communicate
+            more easily.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm">Python</span>
+            <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm">Yolo</span>
+            <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm">Laravel</span>
+            <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm">Tailwind</span>
+            <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm">Vanilla.js</span>
           </div>
         </div>
-
-        <!-- Project Card -->
-        <div
-          class="bg-neutral-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition"
-        >
-          <img
-            src="./assets/sigab.png"
-            alt="sigab"
-            class="w-full h-48 object-cover"
-          />
-          <div class="p-6">
-            <div class="flex items-center space-x-3 mb-3">
-              <h2 class="text-xl font-semibold">SIGAB</h2>
-              <a href="https://sigab.vercel.app/" target="_blank"
-                ><i data-lucide="external-link" class="w-4 h-4"></i
-              ></a>
-              <a
-                href="https://github.com/Vkzapple/Mitigasi-Gempa"
-                target="_blank"
-                ><i data-lucide="github" class="w-4 h-4"></i
-              ></a>
-            </div>
-            <p class="text-gray-300 text-sm mb-4">
-              SIGAB is a website project focused on earthquake mitigation and
-              real-time earthquake information monitoring across Indonesia. It
-              uses APIs from BMKG and BNP to provide up-to-date information and
-              employs Leaflet.js to display map coordinates on the website as a
-              visual representation of the data.
-            </p>
-            <div class="flex flex-wrap gap-2">
-              <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm"
-                >HTML</span
-              >
-              <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm"
-                >CSS</span
-              >
-              <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm"
-                >Vanilla.js</span
-              >
-              <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm"
-                >Leaflet.js</span
-              >
-            </div>
-          </div>
-        </div>
-
-        <!-- Project Card -->
-        <div
-          class="bg-neutral-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition"
-        >
-          <img
-            src="./assets/sigema.png"
-            alt="Project Sigema"
-            class="w-full h-48 object-cover"
-          />
-          <div class="p-6">
-            <div class="flex items-center space-x-3 mb-3">
-              <h2 class="text-xl font-semibold">SIGEMA</h2>
-              <a href="https://si-gema.vercel.app/" target="_blank"
-                ><i data-lucide="external-link" class="w-4 h-4"></i
-              ></a>
-              <a href="https://github.com/Vkzapple/SIGEMA" target="_blank"
-                ><i data-lucide="github" class="w-4 h-4"></i
-              ></a>
-            </div>
-            <p class="text-gray-300 text-sm mb-4">
-              SIGEMA (Silica Gel Effectiveness Monitoring and Assistant) is an
-              IoT project. It consists of a physical device assembled with
-              various electronic components, and a website that serves as a
-              platform for monitoring and controlling the device
-            </p>
-            <div class="flex flex-wrap gap-2">
-              <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm"
-                >ESP32</span
-              >
-              <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm"
-                >MQTT</span
-              >
-              <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm"
-                >HIVEMQ Broker</span
-              >
-              <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm"
-                >Tailwind CSS</span
-              >
-              <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm"
-                >Vanilla.js</span
-              >
-            </div>
-          </div>
-        </div>
-        <!-- Project Card -->
-        <div
-          class="bg-neutral-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition"
-        >
-          <img
-            src="./assets/curion.png"
-            alt="Project Curion"
-            class="w-full h-48 object-cover"
-          />
-          <div class="p-6">
-            <div class="flex items-center space-x-3 mb-3">
-              <h2 class="text-xl font-semibold">CURION</h2>
-              <a href="SIC - Curion (1).pdf" target="_blank"
-                ><i data-lucide="external-link" class="w-4 h-4"></i
-              ></a>
-            </div>
-            <p class="text-gray-300 text-sm mb-4">
-            CURION is a UI/UX project developed as a mobile app design. Curion focuses on social and environmental issues, prioritizing aesthetics and delivering an excellent user experience.
-            </p>
-            <div class="flex flex-wrap gap-2">
-              <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm"
-                >FIGMA</span
-              >
-            </div>
-          </div>
-        </div>
-           <!-- Project Card -->
-        <div
-          class="bg-neutral-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition"
-        >
-          <img
-            src="./assets/broday.png"
-            alt="Project Curion"
-            class="w-full h-48 object-cover"
-          />
-          <div class="p-6">
-            <div class="flex items-center space-x-3 mb-3">
-              <h2 class="text-xl font-semibold">BRODAY - Universitas Indonesia</h2>
-              <a href="broday.pdf" target="_blank"
-                ><i data-lucide="external-link" class="w-4 h-4"></i
-              ></a>
-            </div>
-            <p class="text-gray-300 text-sm mb-4">
-UI/UX Design Project created for BRODAYS Vol. 7, University of Indonesia            </p>
-            <div class="flex flex-wrap gap-2">
-              <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm"
-                >FIGMA</span
-              >
-            </div>
-          </div>
-        </div>
-             <!-- Project Card -->
-        <div
-          class="bg-neutral-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition"
-        >
-          <img
-            src="./assets/xplora.png"
-            alt="Project Curion"
-            class="w-full h-48 object-cover"
-          />
-          <div class="p-6">
-            <div class="flex items-center space-x-3 mb-3">
-              <h2 class="text-xl font-semibold">XPLORA</h2>
-              <a href="xplora.pdf" target="_blank"
-                ><i data-lucide="external-link" class="w-4 h-4"></i
-              ></a>
-            </div>
-            <p class="text-gray-300 text-sm mb-4">
-UI/UX Design Project created for SITEFEST BALI, Universitas Udayana             </p>
-            <div class="flex flex-wrap gap-2">
-              <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm"
-                >FIGMA</span
-              >
-            </div>
-          </div>
-        </div>
-
-        <!-- Tambah project lainnya sesuai kebutuhan -->
       </div>
-    </section>
 
-    <!-- Footer -->
-    <footer
-      class="py-6 text-center text-gray-500 text-sm border-t border-neutral-800"
-    >
-      © 2025 EvellyKz. All rights reserved.
-    </footer>
-      <script src="script.js"></script>
-  </body>
+      <!-- Project Card: SIGAB -->
+      <div class="project-card bg-neutral-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition"
+        data-category="Web">
+        <img src="./assets/sigab.png" alt="sigab" class="w-full h-48 object-cover" />
+        <div class="p-6">
+          <div class="flex items-center space-x-3 mb-3">
+            <h2 class="text-xl font-semibold">SIGAB</h2>
+            <a href="https://sigab.vercel.app/" target="_blank"><i data-lucide="external-link" class="w-4 h-4"></i></a>
+            <a href="https://github.com/Vkzapple/Mitigasi-Gempa" target="_blank"><i data-lucide="github"
+                class="w-4 h-4"></i></a>
+          </div>
+          <p class="text-gray-300 text-sm mb-4">
+            Earthquake mitigation and real-time monitoring web app using BMKG API and Leaflet.js.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm">HTML</span>
+            <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm">CSS</span>
+            <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm">Leaflet.js</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Card: SIGEMA -->
+      <div class="project-card bg-neutral-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition"
+        data-category="IoT">
+        <img src="./assets/sigema.png" alt="Project Sigema" class="w-full h-48 object-cover" />
+        <div class="p-6">
+          <div class="flex items-center space-x-3 mb-3">
+            <h2 class="text-xl font-semibold">SIGEMA</h2>
+            <a href="https://si-gema.vercel.app/" target="_blank"><i data-lucide="external-link"
+                class="w-4 h-4"></i></a>
+            <a href="https://github.com/Vkzapple/SIGEMA" target="_blank"><i data-lucide="github"
+                class="w-4 h-4"></i></a>
+          </div>
+          <p class="text-gray-300 text-sm mb-4">
+            IoT project integrating ESP32 and MQTT to monitor silica gel effectiveness in real time.
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm">ESP32</span>
+            <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm">MQTT</span>
+            <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm">HIVEMQ</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- UI/UX Projects -->
+      <div class="project-card bg-neutral-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition"
+        data-category="UI/UX">
+        <img src="./assets/curion.png" alt="Curion" class="w-full h-48 object-cover" />
+        <div class="p-6">
+          <h2 class="text-xl font-semibold mb-3">CURION</h2>
+          <p class="text-gray-300 text-sm mb-4">Mobile app design addressing social and environmental issues.</p>
+          <p class="text-gray-400 italic text-sm mb-4">Prototype available upon request</p>
+          <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm">Figma</span>
+        </div>
+      </div>
+
+      <div class="project-card bg-neutral-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition"
+        data-category="UI/UX">
+        <img src="./assets/broday.png" alt="Broday UI" class="w-full h-48 object-cover" />
+        <div class="p-6">
+          <h2 class="text-xl font-semibold mb-3">BRODAY UI</h2>
+          <p class="text-gray-300 text-sm mb-4">UI/UX Design Project created for BRODAYS Vol.7, University of Indonesia.
+          </p>
+          <p class="text-gray-400 italic text-sm mb-4">Prototype available upon request</p>
+          <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm">Figma</span>
+        </div>
+      </div>
+
+      <div class="project-card bg-neutral-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition"
+        data-category="UI/UX">
+        <img src="./assets/xplora.png" alt="Xplora" class="w-full h-48 object-cover" />
+        <div class="p-6">
+          <h2 class="text-xl font-semibold mb-3">XPLORA</h2>
+          <p class="text-gray-300 text-sm mb-4">UI/UX Design Project created for SITEFEST BALI, Universitas Udayana.</p>
+          <p class="text-gray-400 italic text-sm mb-4">Prototype available upon request</p>
+          <span class="bg-neutral-800 px-3 py-1 rounded-lg text-sm">Figma</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-6 text-center text-gray-500 text-sm border-t border-neutral-800">
+    © 2025 EvellyKz. All rights reserved.
+  </footer>
+
+  <script>
+    lucide.createIcons();
+
+    // Mobile menu toggle
+    const menuToggle = document.getElementById("menu-toggle");
+    const mobileMenu = document.getElementById("mobile-menu");
+    menuToggle.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+
+    // Filter logic
+    const filterButtons = document.querySelectorAll(".filter-btn");
+    const projectCards = document.querySelectorAll(".project-card");
+
+    filterButtons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const filter = button.getAttribute("data-filter").toLowerCase();
+
+        filterButtons.forEach((btn) =>
+          btn.classList.remove("ring-2", "ring-blue-400")
+        );
+        button.classList.add("ring-2", "ring-blue-400");
+
+        projectCards.forEach((card) => {
+          const categories = card
+            .getAttribute("data-category")
+            .toLowerCase()
+            .split(" ");
+          if (filter === "all" || categories.includes(filter)) {
+            card.classList.remove("hidden");
+          } else {
+            card.classList.add("hidden");
+          }
+        });
+      });
+    });
+  </script>
+</body>
+
 </html>
