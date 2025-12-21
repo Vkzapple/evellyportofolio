@@ -1,4 +1,3 @@
-// MATRIX CANVAS
 const canvas = document.getElementById("matrixCanvas");
 if (canvas) {
   const ctx = canvas.getContext("2d");
@@ -37,7 +36,6 @@ if (canvas) {
   });
 }
 
-// TYPING EFFECT
 const typingTarget = document.getElementById("typing-text");
 if (typingTarget) {
   const sentences = [
@@ -77,7 +75,6 @@ if (typingTarget) {
   typeEffect();
 }
 
-// MOBILE MENU TOGGLE
 const menuToggle = document.getElementById("menu-toggle");
 const mobileMenu = document.getElementById("mobile-menu");
 
@@ -89,8 +86,6 @@ if (menuToggle && mobileMenu) {
   });
 }
 
-
-    // Filter logic
     const filterButtons = document.querySelectorAll(".filter-btn");
     const projectCards = document.querySelectorAll(".project-card");
 
