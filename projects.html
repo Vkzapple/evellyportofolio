@@ -56,7 +56,8 @@
         data-filter="UI/UX">UI/UX</button>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div id="projects-container"
+  class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <!-- Project Card: SignaText -->
       <div class="project-card bg-neutral-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition"
         data-category="Web AI">
@@ -171,16 +172,6 @@
   </footer>
 
   <script src="script.js"></script>
-  <script>
-    lucide.createIcons();
-
-    // Mobile menu toggle
-    const menuToggle = document.getElementById("menu-toggle");
-    const mobileMenu = document.getElementById("mobile-menu");
-    menuToggle.addEventListener("click", () => {
-      mobileMenu.classList.toggle("hidden");
-    });
-  </script>
 </body>
 
 </html>
