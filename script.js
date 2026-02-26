@@ -89,7 +89,7 @@ if (menuToggle && mobileMenu) {
 const projectsContainer = document.getElementById("projects-container");
 
 if (projectsContainer) {
-  fetch("http://localhost:1337/api/projects?populate=*")
+  fetch("https://sublime-apparel-d693b92524.strapiapp.com")
     .then(res => res.json())
     .then(data => {
 
@@ -112,9 +112,9 @@ if (projectsContainer) {
           : "";
 
         // ===== THUMBNAIL (Strapi v5 array) =====
-        const imageUrl = Array.isArray(project.thumbnail) && project.thumbnail.length > 0
-          ? `http://localhost:1337${project.thumbnail[0].url}`
-          : "";
+  const imageUrl = Array.isArray(project.thumbnail) && project.thumbnail.length > 0
+  ? `https://sublime-apparel-d693b92524.strapiapp.com${project.thumbnail[0].url}`
+  : "";
 
         projectsContainer.innerHTML += `
           <div class="project-card bg-neutral-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition"
@@ -179,7 +179,7 @@ function setupFilter() {
 const experienceContainer = document.getElementById("experience-container");
 
 if (experienceContainer) {
-  fetch("http://localhost:1337/api/experiences?sort=createdAt:desc")
+  fetch("https://sublime-apparel-d693b92524.strapiapp.com/api/experiences?sort=createdAt:desc")
     .then(res => res.json())
     .then(data => {
 
@@ -200,7 +200,7 @@ if (experienceContainer) {
 const awardsContainer = document.getElementById("awards-container");
 
 if (awardsContainer) {
-  fetch("http://localhost:1337/api/awards?sort[0]=award_date:desc")
+  fetch("https://sublime-apparel-d693b92524.strapiapp.com/api/awards?sort[0]=award_date:desc")
     .then(res => res.json())
     .then(data => {
 
