@@ -214,3 +214,55 @@ if (awardsContainer) {
       });
     });
 }
+
+// ================= SKILLS =================
+const skillsContainer = document.getElementById("skills-container");
+
+if (skillsContainer) {
+  fetch("http://localhost:1337/api/skills?sort[0]=order:asc")
+    .then(res => res.json())
+    .then(data => {
+
+      skillsContainer.innerHTML = "";
+
+      data.data.forEach((skill, index) => {
+
+        skillsContainer.innerHTML += `
+          <div class="group bg-neutral-900 rounded-xl p-6 text-center 
+                      transform transition duration-300 
+                      hover:scale-105 hover:bg-neutral-800
+                      hover:shadow-[0_0_25px_rgba(34,197,94,0.4)]
+                      animate-fade-in"
+               style="animation-delay: ${index * 100}ms">
+
+            <div class="text-4xl mb-3">
+              ${getSkillIcon(skill.name)}
+            </div>
+
+            <p class="text-sm font-medium text-gray-300 group-hover:text-white transition">
+              ${skill.name}
+            </p>
+          </div>
+        `;
+      });
+    });
+}
+
+// Icon mapping
+function getSkillIcon(name) {
+  const icons = {
+    "HTML": "🌐",
+    "CSS": "🎨",
+    "JavaScript": "🟨",
+    "Tailwind": "💨",
+    "Node.js": "🟢",
+    "Strapi": "🚀",
+    "Python": "🐍",
+    "TensorFlow": "🧠",
+    "ESP32": "📡",
+    "Git": "🔧",
+    "PostgreSQL": "🐘"
+  };
+
+  return icons[name] || "💻";
+}
