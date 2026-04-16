@@ -250,20 +250,40 @@ const experienceContainer = document.getElementById("experience-container");
 
 if (experienceContainer) {
   fetch(`${STRAPI_BASE}/api/experiences?sort=createdAt:desc`)
-    .then(res => res.json())
-    .then(data => {
-      data.data.forEach(exp => {
-        experienceContainer.innerHTML += `
-          <div>
-            <h3 class="font-semibold">${exp.title}</h3>
-            <p class="text-gray-400 text-sm">
-              ${exp.start_date || ""} - ${exp.is_current ? "Present" : exp.end_date || ""}
-            </p>
-          </div>
-        `;
-      });
+    .then(res => {
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return res.json();
     })
-    .catch(err => console.error("Experience fetch error:", err));
+    .then(data => {
+      experienceContainer.innerHTML = "";
+
+      if (!data.data || data.data.length === 0) {
+        experienceContainer.innerHTML = `<p class="text-gray-500 text-sm">No experiences found.</p>`;
+        return;
+      }
+
+      data.data.forEach((exp, i) => {
+        const el = document.createElement("div");
+        el.className = "opacity-0 translate-y-2 transition duration-500 exp-item";
+        el.innerHTML = `
+          <h3 class="font-semibold">${exp.title}</h3>
+          <p class="text-gray-400 text-sm">
+            ${exp.start_date || ""} - ${exp.is_current ? "Present" : exp.end_date || ""}
+          </p>
+        `;
+        experienceContainer.appendChild(el);
+      });
+
+      setTimeout(() => {
+        document.querySelectorAll(".exp-item").forEach((el, i) => {
+          setTimeout(() => el.classList.remove("opacity-0", "translate-y-2"), i * 100);
+        });
+      }, 100);
+    })
+    .catch(err => {
+      console.error("Experience fetch error:", err);
+      experienceContainer.innerHTML = `<p class="text-gray-500 text-sm">Failed to load experiences.</p>`;
+    });
 }
 
 // ================= AWARDS =================
