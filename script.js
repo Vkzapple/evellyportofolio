@@ -246,44 +246,36 @@ function setupFilter() {
 }
 
 // ================= EXPERIENCE =================
+// ================= EXPERIENCE (STATIC) =================
 const experienceContainer = document.getElementById("experience-container");
 
 if (experienceContainer) {
-  fetch(`${STRAPI_BASE}/api/experiences?sort=createdAt:desc`)
-    .then(res => {
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      return res.json();
-    })
-    .then(data => {
-      experienceContainer.innerHTML = "";
+  const experiences = [
+    {
+      title: "AWS Back-End Academy @ DBS Foundation",
+      date: "July 2025 - August 2025"
+    },
+    {
+      title: "Fullstack Web Developer Cohort @ Bank DBS | DBS Foundation",
+      date: "January 2025 - May 2025"
+    },
+    {
+      title: "Student AI & IoT Engineer @ Samsung Innovation Campus",
+      date: "January 2025 - June 2025"
+    }
+  ];
 
-      if (!data.data || data.data.length === 0) {
-        experienceContainer.innerHTML = `<p class="text-gray-500 text-sm">No experiences found.</p>`;
-        return;
-      }
-
-      data.data.forEach((exp, i) => {
-        const el = document.createElement("div");
-        el.className = "opacity-0 translate-y-2 transition duration-500 exp-item";
-        el.innerHTML = `
+  experienceContainer.innerHTML = `
+    <h2 class="text-2xl font-bold mb-6">Experiences</h2>
+    <div class="space-y-4">
+      ${experiences.map(exp => `
+        <div>
           <h3 class="font-semibold">${exp.title}</h3>
-          <p class="text-gray-400 text-sm">
-            ${exp.start_date || ""} - ${exp.is_current ? "Present" : exp.end_date || ""}
-          </p>
-        `;
-        experienceContainer.appendChild(el);
-      });
-
-      setTimeout(() => {
-        document.querySelectorAll(".exp-item").forEach((el, i) => {
-          setTimeout(() => el.classList.remove("opacity-0", "translate-y-2"), i * 100);
-        });
-      }, 100);
-    })
-    .catch(err => {
-      console.error("Experience fetch error:", err);
-      experienceContainer.innerHTML = `<p class="text-gray-500 text-sm">Failed to load experiences.</p>`;
-    });
+          <p class="text-gray-400 text-sm">${exp.date}</p>
+        </div>
+      `).join("")}
+    </div>
+  `;
 }
 
 // ================= AWARDS =================
