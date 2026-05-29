@@ -203,10 +203,8 @@ ${project.github_url ? `
         projectsContainer.appendChild(card);
       });
 
-      // Re-init lucide SETELAH semua card dirender
       if (typeof lucide !== "undefined") lucide.createIcons();
 
-      // Setup filter SETELAH cards ada di DOM
       setupFilter();
     })
     .catch(err => {
@@ -218,7 +216,6 @@ ${project.github_url ? `
       `;
     });
 } else {
-  // Halaman lain yang tidak punya projects-container, tetap setup filter kalau ada static cards
   setupFilter();
 }
 
@@ -250,7 +247,6 @@ function setupFilter() {
 }
 
 // ================= EXPERIENCE =================
-// ================= EXPERIENCE (STATIC) =================
 const experienceContainer = document.getElementById("experience-container");
 
 if (experienceContainer) {
