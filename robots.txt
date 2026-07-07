@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://evekz.pages.dev/sitemap.xml
