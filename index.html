@@ -11,8 +11,10 @@
 <meta property="og:image" content="https://evekz.pages.dev/assets/sigema.png" />
 <meta property="og:url" content="https://evekz.pages.dev/" />
 <meta property="og:type" content="website" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/three@0.150.1/build/three.min.js"></script>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+    <script src="https://cdn.tailwindcss.com" defer></script>
+    <script src="https://unpkg.com/three@0.150.1/build/three.min.js" defer></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -94,6 +96,7 @@
     <!-- Hamburger Button (Mobile) -->
     <button
       id="menu-toggle"
+      aria-label="Toggle navigation menu"
       class="md:hidden flex flex-col space-y-1 focus:outline-none">
       <span class="block w-6 h-0.5 bg-white"></span>
       <span class="block w-6 h-0.5 bg-white"></span>
@@ -297,7 +300,7 @@
       © 2025 EvellyKz. All rights reserved.
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
   </body>
 <script>
 window.addEventListener("load", () => {
