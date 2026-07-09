@@ -117,6 +117,7 @@
   </div>
 </nav>
 
+    <main>
     <!-- Hero Section -->
     <section
       class="min-h-screen flex flex-col-reverse md:flex-row items-center justify-center px-8 md:px-20 bg-black text-white relative"
@@ -132,6 +133,7 @@
           <a
             href="https://github.com/Vkzapple"
             target="_blank"
+            aria-label="GitHub"
             class="hover:text-gray-400 transition-colors duration-300"
           >
             <i class="fab fa-github"></i>
@@ -139,6 +141,7 @@
           <a
             href="https://www.linkedin.com/in/evelly-khanzania/"
             target="_blank"
+            aria-label="LinkedIn"
             class="hover:text-gray-400 transition-colors duration-300"
           >
             <i class="fab fa-linkedin"></i>
@@ -146,6 +149,7 @@
           <a
             href="https://www.instagram.com/evellkz"
             target="_blank"
+            aria-label="Instagram"
             class="hover:text-gray-400 transition-colors duration-300"
           >
             <i class="fab fa-instagram"></i>
@@ -159,6 +163,7 @@
           </a> -->
           <a
             href="mailto:evellykhnz@gmail.com"
+            aria-label="Email"
             class="hover:text-gray-400 transition-colors duration-300"
           >
             <i class="fas fa-envelope"></i>
@@ -247,7 +252,7 @@
     <section class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12">
       <!-- Experiences -->
       <div class="space-y-4">
-        <div id="experience-container" class="space-y-4">
+        <div id="experience-container" class="space-y-4" style="min-height: 280px;">
           <!-- Skeleton loader -->
           <div class="skeleton-item animate-pulse space-y-3">
             <div class="h-4 bg-neutral-800 rounded w-3/4"></div>
@@ -267,7 +272,7 @@
       <!-- Awards -->
       <div class="space-y-4">
         <h2 class="text-2xl font-bold mb-6">Awards</h2>
-        <div id="awards-container" class="space-y-4">
+        <div id="awards-container" class="space-y-4" style="min-height: 460px;">
           <!-- Skeleton loader tampil saat fetch -->
           <div class="skeleton-item animate-pulse space-y-3">
             <div class="h-4 bg-neutral-800 rounded w-3/4"></div>
@@ -293,9 +298,11 @@
       </div>
     </section>
 
+    </main>
+
     <!-- Footer -->
     <footer
-      class="py-6 text-center text-gray-500 text-sm border-t border-neutral-800"
+      class="py-6 text-center text-gray-400 text-sm border-t border-neutral-800"
     >
       © 2025 EvellyKz. All rights reserved.
     </footer>
