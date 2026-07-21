@@ -313,7 +313,6 @@ if (awardsContainer) {
 const skillsContainer = document.getElementById("skills-container");
 
 if (skillsContainer) {
-  // FIX: ganti localhost ke Strapi cloud URL
   fetch(`${STRAPI_BASE}/api/skills?sort[0]=order:asc`)
     .then(res => res.json())
     .then(data => {
