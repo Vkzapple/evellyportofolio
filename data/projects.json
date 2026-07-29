@@ -56,6 +56,20 @@
     "image": "assets/projects/website-kkn.png"
   },
   {
+    "id": "game-1",
+    "title": "RIZZ+++ PUZZLE",
+    "description": "RIZZLE redefines the classic sliding puzzle by turning live selfies into personalized challenges. Built with real-time camera integration and multiplayer support, it provides an interactive, social, and highly engaging browser gaming experience.",
+    "category": "Game",
+    "tech_stack": [
+      "Javascript",
+      "MediaPipe"
+    ],
+    "github_url": "https://github.com/Vkzapple/rizzle",
+    "demo_url": "https://rizzzle.vercel.app/",
+    "featured": null,
+    "image": "assets/projects/game-1.png"
+  },
+  {
     "id": "sigema",
     "title": "SIGEMA",
     "description": "SIGEMA - Silica Gel Effectiveness Monitoring & Assistant IoT project integrating ESP32 and MQTT to monitor silica gel effectiveness in real time.",
@@ -88,20 +102,6 @@
     "demo_url": "https://signatext.vercel.app/",
     "featured": "Capstone Project for Fullstack Web Developer Cohort @ Bank DBS | DBS Foundation (April 2025).",
     "image": "assets/projects/project.png"
-  },
-  {
-    "id": "game-1",
-    "title": "RIZZ+++ PUZZLE",
-    "description": "RIZZLE redefines the classic sliding puzzle by turning live selfies into personalized challenges. Built with real-time camera integration and multiplayer support, it provides an interactive, social, and highly engaging browser gaming experience.",
-    "category": "Game",
-    "tech_stack": [
-      "Javascript",
-      "MediaPipe"
-    ],
-    "github_url": "https://github.com/Vkzapple/rizzle",
-    "demo_url": "https://rizzzle.vercel.app/",
-    "featured": null,
-    "image": "assets/projects/game-1.png"
   },
   {
     "id": "sembaGO",
