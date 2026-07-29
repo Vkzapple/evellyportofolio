@@ -133,6 +133,20 @@
     "image": "assets/projects/project-2.jpg"
   },
   {
+    "id": "game-1",
+    "title": "RIZZ+++ PUZZLE",
+    "description": "RIZZLE redefines the classic sliding puzzle by turning live selfies into personalized challenges. Built with real-time camera integration and multiplayer support, it provides an interactive, social, and highly engaging browser gaming experience.",
+    "category": "Game",
+    "tech_stack": [
+      "Javascript",
+      "MediaPipe"
+    ],
+    "github_url": "https://github.com/Vkzapple/rizzle",
+    "demo_url": "https://rizzzle.vercel.app/",
+    "featured": null,
+    "image": "assets/projects/game-1.png"
+  },
+  {
     "id": "project-1",
     "title": "SIGAB ",
     "description": "SIGAB - Sistem Informasi Gempa dan Mitigasi Bencana\nEarthquake mitigation and real-time monitoring web app using BMKG API and Leaflet.js.",
@@ -147,20 +161,6 @@
     "demo_url": "https://sigab.vercel.app/",
     "featured": null,
     "image": "assets/projects/project-1.png"
-  },
-  {
-    "id": "game-1",
-    "title": "RIZZ+++ PUZZLE",
-    "description": "RIZZLE redefines the classic sliding puzzle by turning live selfies into personalized challenges. Built with real-time camera integration and multiplayer support, it provides an interactive, social, and highly engaging browser gaming experience.",
-    "category": "Game",
-    "tech_stack": [
-      "Javascript",
-      "MediaPipe"
-    ],
-    "github_url": "https://github.com/Vkzapple/rizzle",
-    "demo_url": "https://rizzzle.vercel.app/",
-    "featured": null,
-    "image": "assets/projects/game-1.png"
   },
   {
     "id": "project-4",
