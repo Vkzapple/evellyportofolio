@@ -119,20 +119,6 @@
     "image": "assets/projects/project-3.png"
   },
   {
-    "id": "project-2",
-    "title": "CURION",
-    "description": "Mobile app design addressing social and environmental issues.",
-    "category": "UI/UX",
-    "tech_stack": [
-      "FIGMA",
-      "DESIGN"
-    ],
-    "github_url": null,
-    "demo_url": null,
-    "featured": "Prototype available upon request",
-    "image": "assets/projects/project-2.jpg"
-  },
-  {
     "id": "game-1",
     "title": "RIZZ+++ PUZZLE",
     "description": "RIZZLE redefines the classic sliding puzzle by turning live selfies into personalized challenges. Built with real-time camera integration and multiplayer support, it provides an interactive, social, and highly engaging browser gaming experience.",
@@ -145,6 +131,20 @@
     "demo_url": "https://rizzzle.vercel.app/",
     "featured": null,
     "image": "assets/projects/game-1.png"
+  },
+  {
+    "id": "project-2",
+    "title": "CURION",
+    "description": "Mobile app design addressing social and environmental issues.",
+    "category": "UI/UX",
+    "tech_stack": [
+      "FIGMA",
+      "DESIGN"
+    ],
+    "github_url": null,
+    "demo_url": null,
+    "featured": "Prototype available upon request",
+    "image": "assets/projects/project-2.jpg"
   },
   {
     "id": "project-1",
