@@ -1,0 +1,214 @@
+[
+  {
+    "id": "petvest",
+    "title": "PETVEST",
+    "description": "PetVest is a student-friendly financial management platform designed to help users track expenses, build saving habits, and learn basic investment concepts in a simple and engaging way. The platform features interactive animal characters to create a more fun and approachable financial learning experience for students.",
+    "category": "Web",
+    "tech_stack": [
+      "Next.js",
+      "React",
+      "Node.js",
+      "Express.js",
+      "JavaScript",
+      "REST API"
+    ],
+    "github_url": "https://github.com/Vkzapple/PetVest",
+    "demo_url": "https://pet-vest.vercel.app/",
+    "featured": null,
+    "image": "assets/projects/petvest.png"
+  },
+  {
+    "id": "Insighta-UMKM",
+    "title": "Insighta UMKM",
+    "description": "Insighta UMKM is a machine learning-powered dashboard that analyzes Indonesian marketplace reviews using sentiment analysis and topic modeling. The platform helps MSMEs identify customer satisfaction trends and key business insights through interactive visualizations.",
+    "category": "AI",
+    "tech_stack": [
+      "Vite",
+      "React",
+      "JavaScript",
+      "Python",
+      "Scikit-learn",
+      "Pandas",
+      "NumPy",
+      "TF-IDF",
+      "Random Forest",
+      "Latent Dirichlet Allocation (LDA)",
+      "Matplotlib"
+    ],
+    "github_url": "https://github.com/Vkzapple/umkm-reviews",
+    "demo_url": null,
+    "featured": null,
+    "image": "assets/projects/insighta-umkm.png"
+  },
+  {
+    "id": "website-kkn",
+    "title": "Website KKN - Desa Bandar Klippa",
+    "description": "Website Desa Bandar Klippa is a digital village administration platform developed to simplify public service processes for residents of Desa Bandar Klippa. The website provides fast, transparent, and accessible administrative letter services through a modern web-based system.",
+    "category": "Web",
+    "tech_stack": [
+      "Next.js",
+      "React",
+      "JavaScript"
+    ],
+    "github_url": null,
+    "demo_url": "https://desa-klippa.vercel.app/publik",
+    "featured": "Source code is not publicly available due to active community use and administrative privacy considerations.",
+    "image": "assets/projects/website-kkn.png"
+  },
+  {
+    "id": "sigema",
+    "title": "SIGEMA",
+    "description": "SIGEMA - Silica Gel Effectiveness Monitoring & Assistant IoT project integrating ESP32 and MQTT to monitor silica gel effectiveness in real time.",
+    "category": "IoT",
+    "tech_stack": [
+      "C++",
+      "HTML",
+      "TAILWIND",
+      "Node.js",
+      "MQTT"
+    ],
+    "github_url": "https://github.com/Vkzapple/SIGEMA",
+    "demo_url": "https://si-gema.vercel.app/",
+    "featured": "3rd Place Winner in Youth Scientific Writing – Technology Innovation by DISPORA Jakarta Pusat (July 2025).",
+    "image": "assets/projects/sigema.png"
+  },
+  {
+    "id": "project",
+    "title": "SignaText",
+    "description": "SignaText combines website development and Machine Learning to help people with disabilities communicate more easily.",
+    "category": "AI",
+    "tech_stack": [
+      "Python",
+      "Yolo",
+      "Laravel",
+      "HTML",
+      "CSS"
+    ],
+    "github_url": "https://github.com/Vkzapple/Signatext",
+    "demo_url": "https://signatext.vercel.app/",
+    "featured": "Capstone Project for Fullstack Web Developer Cohort @ Bank DBS | DBS Foundation (April 2025).",
+    "image": "assets/projects/project.png"
+  },
+  {
+    "id": "sembaGO",
+    "title": "sembaGO Mart",
+    "description": "SembaGO Mart is a responsive grocery marketplace website designed to simplify online shopping for daily household needs with fast delivery and cash-on-delivery support. Built with a clean and user-friendly interface, the platform focuses on accessibility, promotional visibility, and seamless customer interaction for local consumers.",
+    "category": "Web",
+    "tech_stack": [
+      "HTML",
+      "Tailwind CSS",
+      "JavaScrip"
+    ],
+    "github_url": "https://github.com/Vkzapple/kekepet-mart/tree/main",
+    "demo_url": "https://sembagomart.vercel.app/#",
+    "featured": "Client-based project developed for a local grocery business to support digital product promotion and online ordering services.",
+    "image": "assets/projects/sembago.png"
+  },
+  {
+    "id": "project-3",
+    "title": "NYAWIT – Panen Monitoring",
+    "description": "NYAWIT – Panen Monitoring is a mobile-based harvest monitoring application developed to simplify palm oil harvest data recording and visualization in real time. The app provides features for inputting harvest results, tracking production data, and analyzing harvest trends through interactive graphs to support more efficient field management.",
+    "category": "Mobile",
+    "tech_stack": [
+      "Kodular",
+      "Block Coding"
+    ],
+    "github_url": null,
+    "demo_url": null,
+    "featured": "Client-based project developed for palm oil harvest monitoring and field data management purposes.",
+    "image": "assets/projects/project-3.png"
+  },
+  {
+    "id": "project-2",
+    "title": "CURION",
+    "description": "Mobile app design addressing social and environmental issues.",
+    "category": "UI/UX",
+    "tech_stack": [
+      "FIGMA",
+      "DESIGN"
+    ],
+    "github_url": null,
+    "demo_url": null,
+    "featured": "Prototype available upon request",
+    "image": "assets/projects/project-2.jpg"
+  },
+  {
+    "id": "project-1",
+    "title": "SIGAB ",
+    "description": "SIGAB - Sistem Informasi Gempa dan Mitigasi Bencana\nEarthquake mitigation and real-time monitoring web app using BMKG API and Leaflet.js.",
+    "category": "Web",
+    "tech_stack": [
+      "HTML",
+      "CSS",
+      "JAVASCRIPT",
+      "leaftlet.js"
+    ],
+    "github_url": "https://github.com/Vkzapple/Mitigasi-Gempa",
+    "demo_url": "https://sigab.vercel.app/",
+    "featured": null,
+    "image": "assets/projects/project-1.png"
+  },
+  {
+    "id": "project-4",
+    "title": "Pelayaran - SMM",
+    "description": "Company profile website design for a logistics and transportation company",
+    "category": "UI/UX",
+    "tech_stack": [
+      "FIGMA",
+      "DESIGN"
+    ],
+    "github_url": null,
+    "demo_url": null,
+    "featured": "Prototype available upon request",
+    "image": "assets/projects/project-4.png"
+  },
+  {
+    "id": "nutry-cycle",
+    "title": "NutryCycle",
+    "description": "Intelligent web application for UMKM business location and type selection powered by ANP and MOORA algorithms.",
+    "category": "AI",
+    "tech_stack": [
+      "PHP LARAVEL",
+      "Python",
+      "Pandas",
+      "Numpy",
+      "Matplotlib",
+      "Decision Tree"
+    ],
+    "github_url": "https://github.com/Vkzapple/NutriCycle",
+    "demo_url": null,
+    "featured": null,
+    "image": "assets/projects/nutry-cycle.png"
+  },
+  {
+    "id": "erobo-AI",
+    "title": "EROBO AI - STEM",
+    "description": "AI-powered STEM research assistant for automated journal monitoring, Indonesian-language summarization, and research gap discovery.",
+    "category": "AI",
+    "tech_stack": [
+      "Next.js",
+      "React",
+      "JavaScript",
+      "Typescript",
+      "LLM"
+    ],
+    "github_url": "https://github.com/Vkzapple/eroboAI",
+    "demo_url": null,
+    "featured": "Live Demo available upon request.",
+    "image": "assets/projects/erobo-ai.png"
+  },
+  {
+    "id": "game-1",
+    "title": "RIZZ+++ PUZZLE",
+    "description": "RIZZLE redefines the classic sliding puzzle by turning live selfies into personalized challenges. Built with real-time camera integration and multiplayer support, it provides an interactive, social, and highly engaging browser gaming experience.",
+    "category": "Game",
+    "tech_stack": [
+      "Javascript",
+      "MediaPipe"
+    ],
+    "github_url": "https://github.com/Vkzapple/rizzle",
+    "demo_url": "https://rizzzle.vercel.app/",
+    "featured": null,
+    "image": "assets/projects/game-1.png"
+  }
+]

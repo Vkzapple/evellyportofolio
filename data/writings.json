@@ -1,0 +1,26 @@
+[
+  {
+    "id": "writing-1",
+    "title": "Karya Ilmiah Pemuda 2025 @ Dispora Jakarta Pusat",
+    "description": "Karya Tulis Ilmiah tentang inovasi teknologi berjudul SIGEMA untuk menyelesaikan masalah korosi dalam lemari penyimpanan (Arsip)",
+    "link": "sigema_wm.pdf"
+  },
+  {
+    "id": "writing-2",
+    "title": "Essay Competition @ Informatics Fest Universitas Padjajaran 2025",
+    "description": "Esai tentang inovasi platform DataJustice berbasis Artificial Intelligence (AI) untuk mendeteksi BIAS Dataset dengan tujuan menciptakan keadilan di masyarakat dan sebagai langkah baru untuk edukasi bahaya AI di lingkungan masyarakat",
+    "link": "IFestEsai_EvellyKhanzaniaPutri_WM.pdf"
+  },
+  {
+    "id": "writing-3",
+    "title": "Olimpiade Geografi dan Geosains @ FITB ITB 2025",
+    "description": "sebuah karya tulis ilmiah dalam sub-lomba \"Science Project\" yang diselenggarakan oleh Institut Teknologi Bandung. Dalam Karya Tulis ini membahas inovasi alat monitoring berbasis IoT yaitu \"Wetherra\"",
+    "link": "Ogg_ITB_WM.pdf"
+  },
+  {
+    "id": "writing-4",
+    "title": "Analitik Ulasan Produk UMKM Jakarta Pada Marketplace Indonesia Berbasis Machine Learning: Pendekatan Klasifikasi Sentimen dan Topic Modeling",
+    "description": "Karya tulis ilmiah tentang pengembangan dashboard analitik berbasis Data Science yang memanfaatkan Machine Learning dan Natural Language Processing (NLP) untuk menganalisis ulasan marketplace Indonesia secara real-time. Penelitian ini berfokus pada sentiment analysis dan topic modeling guna menghasilkan insight bisnis, memahami pola kepuasan pelanggan, serta membantu UMKM mengambil keputusan berbasis data di era ekonomi digital.",
+    "link": "KTI_Insighta.pdf"
+  }
+]

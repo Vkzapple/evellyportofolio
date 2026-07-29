@@ -78,7 +78,9 @@ if (menuToggle && mobileMenu) {
 }
 
 // ================= PROJECTS =================
-const STRAPI_BASE = "https://sublime-apparel-d693b92524.strapiapp.com";
+// Content sekarang dikelola lewat dashboard CMS (folder /admin) dan disimpan
+// sebagai file JSON statis di folder /data — tidak perlu Strapi lagi.
+const DATA_BASE = "data";
 const projectsContainer = document.getElementById("projects-container");
 
 if (projectsContainer) {
@@ -92,44 +94,25 @@ if (projectsContainer) {
     </div>
   `;
 
-  fetch(`${STRAPI_BASE}/api/projects?populate=*`)
+  fetch(`${DATA_BASE}/projects.json`)
     .then(res => {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       return res.json();
     })
-    .then(data => {
+    .then(projects => {
       projectsContainer.innerHTML = "";
 
-      if (!data.data || data.data.length === 0) {
+      if (!projects || projects.length === 0) {
         projectsContainer.innerHTML = `<p class="text-gray-400 col-span-full text-center">No projects found.</p>`;
         return;
       }
 
-      data.data.forEach(project => {
+      projects.forEach(project => {
         // ---------- IMAGE ----------
-        // Strapi v5 populate=* returns thumbnail as array of media objects
-        let imageUrl = null;
-        if (Array.isArray(project.thumbnail) && project.thumbnail.length > 0) {
-          const thumb = project.thumbnail[0];
-          // url bisa absolute atau relative
-          imageUrl = thumb.url?.startsWith("http")
-            ? thumb.url
-            : `${STRAPI_BASE}${thumb.url}`;
-        } else if (project.thumbnail?.url) {
-          imageUrl = project.thumbnail.url.startsWith("http")
-            ? project.thumbnail.url
-            : `${STRAPI_BASE}${project.thumbnail.url}`;
-        }
+        const imageUrl = project.image || null;
 
         // ---------- DESCRIPTION ----------
-        let descriptionText = "";
-        if (Array.isArray(project.description)) {
-          descriptionText = project.description
-            .map(block => block.children?.map(c => c.text).join("") || "")
-            .join(" ");
-        } else if (typeof project.description === "string") {
-          descriptionText = project.description;
-        }
+        const descriptionText = project.description || "";
 
         // ---------- TECH STACK ----------
         let techStackHTML = "";
@@ -250,52 +233,48 @@ function setupFilter() {
 const experienceContainer = document.getElementById("experience-container");
 
 if (experienceContainer) {
-  const experiences = [
-    {
-      title: "AWS Back-End Academy @ DBS Foundation",
-      date: "July 2025 - August 2025"
-    },
-    {
-      title: "Fullstack Web Developer Cohort @ Bank DBS | DBS Foundation",
-      date: "January 2025 - May 2025"
-    },
-    {
-      title: "Student AI & IoT Engineer @ Samsung Innovation Campus",
-      date: "January 2025 - June 2025"
-    }
-  ];
-
-  experienceContainer.innerHTML = `
-    <h2 class="text-2xl font-bold mb-6">Experiences</h2>
-    <div class="space-y-4">
-      ${experiences.map(exp => `
-        <div>
-          <h3 class="font-semibold">${exp.title}</h3>
-          <p class="text-gray-400 text-sm">${exp.date}</p>
+  fetch(`${DATA_BASE}/experiences.json`)
+    .then(res => res.json())
+    .then(experiences => {
+      experienceContainer.innerHTML = `
+        <h2 class="text-2xl font-bold mb-6">Experiences</h2>
+        <div class="space-y-4">
+          ${experiences.map(exp => `
+            <div>
+              <h3 class="font-semibold">${exp.title}</h3>
+              <p class="text-gray-400 text-sm">${exp.date}</p>
+            </div>
+          `).join("")}
         </div>
-      `).join("")}
-    </div>
-  `;
+      `;
+    })
+    .catch(err => {
+      console.error("Experience fetch error:", err);
+      experienceContainer.innerHTML = `<p class="text-gray-500 text-sm">Failed to load experiences.</p>`;
+    });
 }
 
 // ================= AWARDS =================
-// FIX: ada typo backtick di selector aslinya: "awards-container`"
 const awardsContainer = document.getElementById("awards-container");
 
 if (awardsContainer) {
-  fetch(`${STRAPI_BASE}/api/awards?sort[0]=award_date:desc`)
+  fetch(`${DATA_BASE}/awards.json`)
     .then(res => res.json())
-    .then(data => {
+    .then(awards => {
       awardsContainer.innerHTML = "";
 
-      data.data.forEach(award => {
-        awardsContainer.innerHTML += `
-          <div class="opacity-0 translate-y-2 transition duration-500 award-item">
-            <h3 class="font-semibold">${award.title}</h3>
-            <p class="text-gray-400 text-sm">${award.date || award.award_date || ""}</p>
-          </div>
-        `;
-      });
+      // urutkan terbaru dulu berdasarkan award_date
+      awards
+        .slice()
+        .sort((a, b) => (b.award_date || "").localeCompare(a.award_date || ""))
+        .forEach(award => {
+          awardsContainer.innerHTML += `
+            <div class="opacity-0 translate-y-2 transition duration-500 award-item">
+              <h3 class="font-semibold">${award.title}</h3>
+              <p class="text-gray-400 text-sm">${award.date || award.award_date || ""}</p>
+            </div>
+          `;
+        });
 
       setTimeout(() => {
         document.querySelectorAll(".award-item").forEach((el, i) => {
@@ -309,16 +288,47 @@ if (awardsContainer) {
     });
 }
 
+// ================= WRITINGS =================
+const writingsContainer = document.getElementById("writings-container");
+
+if (writingsContainer) {
+  fetch(`${DATA_BASE}/writings.json`)
+    .then(res => res.json())
+    .then(writings => {
+      writingsContainer.innerHTML = "";
+
+      writings.forEach(w => {
+        writingsContainer.innerHTML += `
+          <div class="bg-neutral-900 rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition">
+            <div class="p-6">
+              <h2 class="text-xl font-semibold mb-2">${w.title}</h2>
+              <p class="text-gray-300 text-sm mb-4">${w.description}</p>
+              ${w.link ? `
+                <a href="${w.link}" target="_blank" class="text-blue-400 underline text-sm">
+                  Baca Selengkapnya →
+                </a>
+              ` : ""}
+            </div>
+          </div>
+        `;
+      });
+    })
+    .catch(err => {
+      console.error("Writings fetch error:", err);
+      writingsContainer.innerHTML = `<p class="text-gray-500 text-sm col-span-full text-center">Failed to load writings.</p>`;
+    });
+}
+
 // ================= SKILLS =================
 const skillsContainer = document.getElementById("skills-container");
 
 if (skillsContainer) {
-  fetch(`${STRAPI_BASE}/api/skills?sort[0]=order:asc`)
+  fetch(`${DATA_BASE}/skills.json`)
     .then(res => res.json())
-    .then(data => {
+    .then(skills => {
       skillsContainer.innerHTML = "";
 
-      data.data.forEach((skill, index) => {
+      skills.forEach((skill, index) => {
         skillsContainer.innerHTML += `
           <div class="group bg-neutral-900 rounded-xl p-6 text-center
                       transform transition duration-300
