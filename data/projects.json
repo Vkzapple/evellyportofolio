@@ -18,6 +18,20 @@
     "image": "assets/projects/petvest.png"
   },
   {
+    "id": "game-1",
+    "title": "RIZZ+++ PUZZLE",
+    "description": "RIZZLE redefines the classic sliding puzzle by turning live selfies into personalized challenges. Built with real-time camera integration and multiplayer support, it provides an interactive, social, and highly engaging browser gaming experience.",
+    "category": "Game",
+    "tech_stack": [
+      "Javascript",
+      "MediaPipe"
+    ],
+    "github_url": "https://github.com/Vkzapple/rizzle",
+    "demo_url": "https://rizzzle.vercel.app/",
+    "featured": null,
+    "image": "assets/projects/game-1.png"
+  },
+  {
     "id": "Insighta-UMKM",
     "title": "Insighta UMKM",
     "description": "Insighta UMKM is a machine learning-powered dashboard that analyzes Indonesian marketplace reviews using sentiment analysis and topic modeling. The platform helps MSMEs identify customer satisfaction trends and key business insights through interactive visualizations.",
@@ -39,20 +53,6 @@
     "demo_url": null,
     "featured": null,
     "image": "assets/projects/insighta-umkm.png"
-  },
-  {
-    "id": "game-1",
-    "title": "RIZZ+++ PUZZLE",
-    "description": "RIZZLE redefines the classic sliding puzzle by turning live selfies into personalized challenges. Built with real-time camera integration and multiplayer support, it provides an interactive, social, and highly engaging browser gaming experience.",
-    "category": "Game",
-    "tech_stack": [
-      "Javascript",
-      "MediaPipe"
-    ],
-    "github_url": "https://github.com/Vkzapple/rizzle",
-    "demo_url": "https://rizzzle.vercel.app/",
-    "featured": null,
-    "image": "assets/projects/game-1.png"
   },
   {
     "id": "website-kkn",
