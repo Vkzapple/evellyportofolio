@@ -1,23 +1,5 @@
 [
   {
-    "id": "petvest",
-    "title": "PETVEST",
-    "description": "PetVest is a student-friendly financial management platform designed to help users track expenses, build saving habits, and learn basic investment concepts in a simple and engaging way. The platform features interactive animal characters to create a more fun and approachable financial learning experience for students.",
-    "category": "Web",
-    "tech_stack": [
-      "Next.js",
-      "React",
-      "Node.js",
-      "Express.js",
-      "JavaScript",
-      "REST API"
-    ],
-    "github_url": "https://github.com/Vkzapple/PetVest",
-    "demo_url": "https://pet-vest.vercel.app/",
-    "featured": null,
-    "image": "assets/projects/petvest.png"
-  },
-  {
     "id": "Insighta-UMKM",
     "title": "Insighta UMKM",
     "description": "Insighta UMKM is a machine learning-powered dashboard that analyzes Indonesian marketplace reviews using sentiment analysis and topic modeling. The platform helps MSMEs identify customer satisfaction trends and key business insights through interactive visualizations.",
@@ -39,6 +21,24 @@
     "demo_url": null,
     "featured": null,
     "image": "assets/projects/insighta-umkm.png"
+  },
+  {
+    "id": "petvest",
+    "title": "PETVEST",
+    "description": "PetVest is a student-friendly financial management platform designed to help users track expenses, build saving habits, and learn basic investment concepts in a simple and engaging way. The platform features interactive animal characters to create a more fun and approachable financial learning experience for students.",
+    "category": "Web",
+    "tech_stack": [
+      "Next.js",
+      "React",
+      "Node.js",
+      "Express.js",
+      "JavaScript",
+      "REST API"
+    ],
+    "github_url": "https://github.com/Vkzapple/PetVest",
+    "demo_url": "https://pet-vest.vercel.app/",
+    "featured": null,
+    "image": "assets/projects/petvest.png"
   },
   {
     "id": "website-kkn",
