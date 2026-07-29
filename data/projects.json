@@ -41,6 +41,20 @@
     "image": "assets/projects/insighta-umkm.png"
   },
   {
+    "id": "game-1",
+    "title": "RIZZ+++ PUZZLE",
+    "description": "RIZZLE redefines the classic sliding puzzle by turning live selfies into personalized challenges. Built with real-time camera integration and multiplayer support, it provides an interactive, social, and highly engaging browser gaming experience.",
+    "category": "Game",
+    "tech_stack": [
+      "Javascript",
+      "MediaPipe"
+    ],
+    "github_url": "https://github.com/Vkzapple/rizzle",
+    "demo_url": "https://rizzzle.vercel.app/",
+    "featured": null,
+    "image": "assets/projects/game-1.png"
+  },
+  {
     "id": "website-kkn",
     "title": "Website KKN - Desa Bandar Klippa",
     "description": "Website Desa Bandar Klippa is a digital village administration platform developed to simplify public service processes for residents of Desa Bandar Klippa. The website provides fast, transparent, and accessible administrative letter services through a modern web-based system.",
@@ -54,20 +68,6 @@
     "demo_url": "https://desa-klippa.vercel.app/publik",
     "featured": "Source code is not publicly available due to active community use and administrative privacy considerations.",
     "image": "assets/projects/website-kkn.png"
-  },
-  {
-    "id": "game-1",
-    "title": "RIZZ+++ PUZZLE",
-    "description": "RIZZLE redefines the classic sliding puzzle by turning live selfies into personalized challenges. Built with real-time camera integration and multiplayer support, it provides an interactive, social, and highly engaging browser gaming experience.",
-    "category": "Game",
-    "tech_stack": [
-      "Javascript",
-      "MediaPipe"
-    ],
-    "github_url": "https://github.com/Vkzapple/rizzle",
-    "demo_url": "https://rizzzle.vercel.app/",
-    "featured": null,
-    "image": "assets/projects/game-1.png"
   },
   {
     "id": "sigema",
