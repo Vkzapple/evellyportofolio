@@ -1,11 +1,3 @@
-// ================================================================
-// Evelly CMS — personal dashboard untuk mengelola konten portfolio
-// Konsep: konten disimpan sebagai file JSON di repo GitHub.
-// Dashboard ini edit file tsb via GitHub Contents API, lalu
-// Cloudflare Pages / Vercel / Netlify auto-redeploy dari commit.
-// 100% static — tidak butuh server/backend berbayar.
-// ================================================================
-
 const OWNER = "Vkzapple";
 const REPO = "evellyportofolio";
 const BRANCH = "main";
@@ -416,8 +408,8 @@ async function persist(message) {
   setStatus("Commit ke GitHub...");
   try {
     await saveCollection(activeTab, message);
-    setStatus("✅ Tersimpan — site akan auto-redeploy");
-    toast("Perubahan tersimpan & di-commit ke GitHub!");
+    setStatus("Tersimpan!");
+    toast("Perubahan tersimpan!");
   } catch (e) {
     // konflik sha → reload lalu minta ulang
     if (/sha|conflict|409|422/i.test(e.message)) {
