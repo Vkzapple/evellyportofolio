@@ -181,6 +181,20 @@
     "image": "assets/projects/nutry-cycle.png"
   },
   {
+    "id": "game-1",
+    "title": "RIZZ+++ PUZZLE",
+    "description": "RIZZLE redefines the classic sliding puzzle by turning live selfies into personalized challenges. Built with real-time camera integration and multiplayer support, it provides an interactive, social, and highly engaging browser gaming experience.",
+    "category": "Game",
+    "tech_stack": [
+      "Javascript",
+      "MediaPipe"
+    ],
+    "github_url": "https://github.com/Vkzapple/rizzle",
+    "demo_url": "https://rizzzle.vercel.app/",
+    "featured": null,
+    "image": "assets/projects/game-1.png"
+  },
+  {
     "id": "erobo-AI",
     "title": "EROBO AI - STEM",
     "description": "AI-powered STEM research assistant for automated journal monitoring, Indonesian-language summarization, and research gap discovery.",
@@ -196,19 +210,5 @@
     "demo_url": null,
     "featured": "Live Demo available upon request.",
     "image": "assets/projects/erobo-ai.png"
-  },
-  {
-    "id": "game-1",
-    "title": "RIZZ+++ PUZZLE",
-    "description": "RIZZLE redefines the classic sliding puzzle by turning live selfies into personalized challenges. Built with real-time camera integration and multiplayer support, it provides an interactive, social, and highly engaging browser gaming experience.",
-    "category": "Game",
-    "tech_stack": [
-      "Javascript",
-      "MediaPipe"
-    ],
-    "github_url": "https://github.com/Vkzapple/rizzle",
-    "demo_url": "https://rizzzle.vercel.app/",
-    "featured": null,
-    "image": "assets/projects/game-1.png"
   }
 ]
