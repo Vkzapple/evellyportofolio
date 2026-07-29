@@ -90,6 +90,20 @@
     "image": "assets/projects/project.png"
   },
   {
+    "id": "game-1",
+    "title": "RIZZ+++ PUZZLE",
+    "description": "RIZZLE redefines the classic sliding puzzle by turning live selfies into personalized challenges. Built with real-time camera integration and multiplayer support, it provides an interactive, social, and highly engaging browser gaming experience.",
+    "category": "Game",
+    "tech_stack": [
+      "Javascript",
+      "MediaPipe"
+    ],
+    "github_url": "https://github.com/Vkzapple/rizzle",
+    "demo_url": "https://rizzzle.vercel.app/",
+    "featured": null,
+    "image": "assets/projects/game-1.png"
+  },
+  {
     "id": "sembaGO",
     "title": "sembaGO Mart",
     "description": "SembaGO Mart is a responsive grocery marketplace website designed to simplify online shopping for daily household needs with fast delivery and cash-on-delivery support. Built with a clean and user-friendly interface, the platform focuses on accessibility, promotional visibility, and seamless customer interaction for local consumers.",
@@ -103,20 +117,6 @@
     "demo_url": "https://sembagomart.vercel.app/#",
     "featured": "Client-based project developed for a local grocery business to support digital product promotion and online ordering services.",
     "image": "assets/projects/sembago.png"
-  },
-  {
-    "id": "game-1",
-    "title": "RIZZ+++ PUZZLE",
-    "description": "RIZZLE redefines the classic sliding puzzle by turning live selfies into personalized challenges. Built with real-time camera integration and multiplayer support, it provides an interactive, social, and highly engaging browser gaming experience.",
-    "category": "Game",
-    "tech_stack": [
-      "Javascript",
-      "MediaPipe"
-    ],
-    "github_url": "https://github.com/Vkzapple/rizzle",
-    "demo_url": "https://rizzzle.vercel.app/",
-    "featured": null,
-    "image": "assets/projects/game-1.png"
   },
   {
     "id": "project-3",
