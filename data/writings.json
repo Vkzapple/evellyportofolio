@@ -24,15 +24,15 @@
     "link": "Ogg_ITB_WM.pdf"
   },
   {
-    "id": "writing-4",
-    "title": "Analitik Ulasan Produk UMKM Jakarta Pada Marketplace Indonesia Berbasis Machine Learning: Pendekatan Klasifikasi Sentimen dan Topic Modeling",
-    "description": "Karya tulis ilmiah tentang pengembangan dashboard analitik berbasis Data Science yang memanfaatkan Machine Learning dan Natural Language Processing (NLP) untuk menganalisis ulasan marketplace Indonesia secara real-time. Penelitian ini berfokus pada sentiment analysis dan topic modeling guna menghasilkan insight bisnis, memahami pola kepuasan pelanggan, serta membantu UMKM mengambil keputusan berbasis data di era ekonomi digital.",
-    "link": "KTI_Insighta.pdf"
-  },
-  {
     "title": "Klasifikasi Multi-Label Instrumen Musik Melalui Fusi Embedding YAMNet dan PANNs CNN14 dengan Nested Cross-Validation",
     "description": "klasifikasi multi-label instrumen musik pada Task 2 Datathon 2026 High School Track, yaitu memprediksi 21 label instrumen (Drums, Piano, Violin, dst.) yang muncul pada sebuah klip audio. Pendekatan yang digunakan adalah fusi tiga cabang model\nLogistic Regression berbasis fitur audio pretrained (YAMNet dan PANNs CNN14),\ndilatih dengan repeated Multilabel-Stratified K-Fold (3 repeat x 5 fold).",
     "link": "https://drive.google.com/file/d/1BE12J2tX2MTwi-xWzrKHRGFX72p6O7Ze/view?usp=sharing",
     "id": "klasifikasi-multi-label-instrumen-musik-melalui-fusi-embedding-yamnet-dan-panns-cnn14-dengan-nested-cross-validation"
+  },
+  {
+    "id": "writing-4",
+    "title": "Analitik Ulasan Produk UMKM Jakarta Pada Marketplace Indonesia Berbasis Machine Learning: Pendekatan Klasifikasi Sentimen dan Topic Modeling",
+    "description": "Karya tulis ilmiah tentang pengembangan dashboard analitik berbasis Data Science yang memanfaatkan Machine Learning dan Natural Language Processing (NLP) untuk menganalisis ulasan marketplace Indonesia secara real-time. Penelitian ini berfokus pada sentiment analysis dan topic modeling guna menghasilkan insight bisnis, memahami pola kepuasan pelanggan, serta membantu UMKM mengambil keputusan berbasis data di era ekonomi digital.",
+    "link": "KTI_Insighta.pdf"
   }
 ]
