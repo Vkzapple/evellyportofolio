@@ -28,5 +28,11 @@
     "description": "MarketSense, sebuah pipeline machine learning untuk\nmemprediksi kelas harga (0–4) listing rental menggunakan data tabular, teks bebas,\ndan lokasi geografis. Analisis data menunjukkan adanya noise pada fitur kategorikal\n(city dan room_type) yang diatasi melalui normalisasi berbasis regex, serta koordinat\ngeografis yang berfungsi sebagai cluster identifier.",
     "link": "https://drive.google.com/file/d/109iIn2RsN6WN7fBB9E3BDT1SNKcipqD9/view?usp=drive_link",
     "id": "marketsense-prediksi-kelas-harga-multimodal-untuk-listing-rental-menggunakan-xgboost-dan-ekstraksi-sinyal-harga-tersembunyi"
+  },
+  {
+    "title": "Klasifikasi Multi-Label Instrumen Musik Melalui Fusi Embedding YAMNet dan PANNs CNN14 dengan Nested Cross-Validation",
+    "description": "klasifikasi multi-label instrumen musik pada Task 2 Datathon 2026 High School Track, yaitu memprediksi 21 label instrumen (Drums, Piano, Violin, dst.) yang muncul pada sebuah klip audio. Pendekatan yang digunakan adalah fusi tiga cabang model\nLogistic Regression berbasis fitur audio pretrained (YAMNet dan PANNs CNN14),\ndilatih dengan repeated Multilabel-Stratified K-Fold (3 repeat x 5 fold).",
+    "link": "https://drive.google.com/file/d/1BE12J2tX2MTwi-xWzrKHRGFX72p6O7Ze/view?usp=sharing",
+    "id": "klasifikasi-multi-label-instrumen-musik-melalui-fusi-embedding-yamnet-dan-panns-cnn14-dengan-nested-cross-validation"
   }
 ]
