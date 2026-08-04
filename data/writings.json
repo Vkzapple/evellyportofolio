@@ -22,5 +22,11 @@
     "title": "Analitik Ulasan Produk UMKM Jakarta Pada Marketplace Indonesia Berbasis Machine Learning: Pendekatan Klasifikasi Sentimen dan Topic Modeling",
     "description": "Karya tulis ilmiah tentang pengembangan dashboard analitik berbasis Data Science yang memanfaatkan Machine Learning dan Natural Language Processing (NLP) untuk menganalisis ulasan marketplace Indonesia secara real-time. Penelitian ini berfokus pada sentiment analysis dan topic modeling guna menghasilkan insight bisnis, memahami pola kepuasan pelanggan, serta membantu UMKM mengambil keputusan berbasis data di era ekonomi digital.",
     "link": "KTI_Insighta.pdf"
+  },
+  {
+    "title": "MarketSense: Prediksi Kelas Harga Multimodal untuk Listing Rental Menggunakan XGBoost dan Ekstraksi Sinyal Harga Tersembunyi",
+    "description": "sebuah pipeline machine learning untuk\nmemprediksi kelas harga (0–4) listing rental menggunakan data tabular, teks bebas,\ndan lokasi geografis.",
+    "link": "https://docs.google.com/document/d/15sBNF836IjawERKPBdwpalVm8WlSGb_F/edit?usp=drive_link&ouid=100095657232323589357&rtpof=true&sd=true",
+    "id": "marketsense-prediksi-kelas-harga-multimodal-untuk-listing-rental-menggunakan-xgboost-dan-ekstraksi-sinyal-harga-tersembunyi"
   }
 ]
