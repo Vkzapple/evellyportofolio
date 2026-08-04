@@ -6,16 +6,16 @@
     "link": "sigema_wm.pdf"
   },
   {
-    "id": "writing-2",
-    "title": "Essay Competition @ Informatics Fest Universitas Padjajaran 2025",
-    "description": "Esai tentang inovasi platform DataJustice berbasis Artificial Intelligence (AI) untuk mendeteksi BIAS Dataset dengan tujuan menciptakan keadilan di masyarakat dan sebagai langkah baru untuk edukasi bahaya AI di lingkungan masyarakat",
-    "link": "IFestEsai_EvellyKhanzaniaPutri_WM.pdf"
-  },
-  {
     "title": "MarketSense: Prediksi Kelas Harga Multimodal untuk Listing Rental Menggunakan XGBoost dan Ekstraksi Sinyal Harga Tersembunyi",
     "description": "MarketSense, sebuah pipeline machine learning untuk\nmemprediksi kelas harga (0–4) listing rental menggunakan data tabular, teks bebas,\ndan lokasi geografis. Analisis data menunjukkan adanya noise pada fitur kategorikal\n(city dan room_type) yang diatasi melalui normalisasi berbasis regex, serta koordinat\ngeografis yang berfungsi sebagai cluster identifier.",
     "link": "https://drive.google.com/file/d/109iIn2RsN6WN7fBB9E3BDT1SNKcipqD9/view?usp=drive_link",
     "id": "marketsense-prediksi-kelas-harga-multimodal-untuk-listing-rental-menggunakan-xgboost-dan-ekstraksi-sinyal-harga-tersembunyi"
+  },
+  {
+    "id": "writing-2",
+    "title": "Essay Competition @ Informatics Fest Universitas Padjajaran 2025",
+    "description": "Esai tentang inovasi platform DataJustice berbasis Artificial Intelligence (AI) untuk mendeteksi BIAS Dataset dengan tujuan menciptakan keadilan di masyarakat dan sebagai langkah baru untuk edukasi bahaya AI di lingkungan masyarakat",
+    "link": "IFestEsai_EvellyKhanzaniaPutri_WM.pdf"
   },
   {
     "id": "writing-3",
