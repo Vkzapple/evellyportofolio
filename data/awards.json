@@ -14,18 +14,18 @@
     "award_date": "2026-01-24"
   },
   {
-    "id": "award-14",
-    "title": "1st Place in Internet Of Things - ITechno Cup 2025 @ Politeknik Negeri Jakarta",
-    "organization": "PNj",
-    "date": "October 2025",
-    "award_date": "2025-10-25"
-  },
-  {
     "title": "1st Place in Robotics Competition @ Gebyar Merdeka Gliter JAK 2026",
     "organization": "Dinas Pendidikan DKI Jakarta",
     "date": "Agustus 2026",
     "award_date": "2026-08-18",
     "id": "1st-place-in-robotics-competition-gebyar-merdeka-gliter-jak-2026-dinas-pendidikan-dki-jakarta"
+  },
+  {
+    "id": "award-14",
+    "title": "1st Place in Internet Of Things - ITechno Cup 2025 @ Politeknik Negeri Jakarta",
+    "organization": "PNj",
+    "date": "October 2025",
+    "award_date": "2025-10-25"
   },
   {
     "id": "award-7",
