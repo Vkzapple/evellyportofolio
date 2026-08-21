@@ -21,18 +21,18 @@
     "award_date": "2025-10-25"
   },
   {
-    "id": "award-7",
-    "title": "1st Place in Essay Competition - Informatics Festival 2025 @ Universitas Padjajarang Bandung",
-    "organization": "UNPAD",
-    "date": "October 2025",
-    "award_date": "2025-10-23"
-  },
-  {
     "title": "1st Place in Robotics Competition @ Gebyar Merdeka Gliter JAK 2026",
     "organization": "Dinas Pendidikan DKI Jakarta",
     "date": "Agustus 2026",
     "award_date": "2026-08-18",
     "id": "1st-place-in-robotics-competition-gebyar-merdeka-gliter-jak-2026-dinas-pendidikan-dki-jakarta"
+  },
+  {
+    "id": "award-7",
+    "title": "1st Place in Essay Competition - Informatics Festival 2025 @ Universitas Padjajarang Bandung",
+    "organization": "UNPAD",
+    "date": "October 2025",
+    "award_date": "2025-10-23"
   },
   {
     "id": "award-10",
