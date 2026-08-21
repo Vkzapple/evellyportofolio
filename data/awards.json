@@ -28,18 +28,18 @@
     "award_date": "2025-10-23"
   },
   {
-    "id": "award-10",
-    "title": "3rd Place in Youth Scientific Writing – Technology Innovation @  DISPORA Jakarta Pusat",
-    "organization": "DISPORA",
-    "date": "July 2025",
-    "award_date": "2025-07-17"
-  },
-  {
     "title": "1st Place in Robotics Competition @ Gebyar Merdeka Gliter JAK 2026",
     "organization": "Dinas Pendidikan DKI Jakarta",
     "date": "Agustus 2026",
     "award_date": "2026-08-18",
     "id": "1st-place-in-robotics-competition-gebyar-merdeka-gliter-jak-2026-dinas-pendidikan-dki-jakarta"
+  },
+  {
+    "id": "award-10",
+    "title": "3rd Place in Youth Scientific Writing – Technology Innovation @  DISPORA Jakarta Pusat",
+    "organization": "DISPORA",
+    "date": "July 2025",
+    "award_date": "2025-07-17"
   },
   {
     "id": "award-26",
