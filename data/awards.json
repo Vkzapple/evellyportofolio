@@ -56,18 +56,18 @@
     "award_date": "2024-08-14"
   },
   {
-    "id": "award-20",
-    "title": "Honorable Mention in English Competition @ National Science & Social Competition",
-    "organization": "kemendikbud",
-    "date": "2022",
-    "award_date": "2022-02-10"
-  },
-  {
     "title": "1st Place in Robotics Competition @ Gebyar Merdeka Gliter JAK 2026",
     "organization": "Dinas Pendidikan DKI Jakarta",
     "date": "Agustus 2026",
     "award_date": "2026-08-18",
     "id": "1st-place-in-robotics-competition-gebyar-merdeka-gliter-jak-2026-dinas-pendidikan-dki-jakarta"
+  },
+  {
+    "id": "award-20",
+    "title": "Honorable Mention in English Competition @ National Science & Social Competition",
+    "organization": "kemendikbud",
+    "date": "2022",
+    "award_date": "2022-02-10"
   },
   {
     "id": "award-22",
