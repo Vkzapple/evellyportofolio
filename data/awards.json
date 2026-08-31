@@ -14,18 +14,18 @@
     "award_date": "2026-02-15"
   },
   {
-    "id": "award-18",
-    "title": "2nd Place in Scientific Paper - NITRO KIR @ SMAN 2 Jakarta",
-    "organization": "KIR-Nitro",
-    "date": "January 2026",
-    "award_date": "2026-01-24"
-  },
-  {
     "title": "Finalist DATATHON 2026 - RISTEK FASILKOM UI",
     "organization": "RISTEK FASILKOM UI",
     "date": "Agustus 2026",
     "award_date": "2026-08-30",
     "id": "finalist-datathon-2026-ristek-fasilkom-ui"
+  },
+  {
+    "id": "award-18",
+    "title": "2nd Place in Scientific Paper - NITRO KIR @ SMAN 2 Jakarta",
+    "organization": "KIR-Nitro",
+    "date": "January 2026",
+    "award_date": "2026-01-24"
   },
   {
     "id": "award-14",
