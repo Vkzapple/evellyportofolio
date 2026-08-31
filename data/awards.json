@@ -35,18 +35,18 @@
     "award_date": "2025-10-23"
   },
   {
-    "id": "award-10",
-    "title": "3rd Place in Youth Scientific Writing – Technology Innovation @  DISPORA Jakarta Pusat",
-    "organization": "DISPORA",
-    "date": "July 2025",
-    "award_date": "2025-07-17"
-  },
-  {
     "title": "Finalist DATATHON 2026 - RISTEK FASILKOM UI",
     "organization": "RISTEK FASILKOM UI",
     "date": "Agustus 2026",
     "award_date": "2026-08-30",
     "id": "finalist-datathon-2026-ristek-fasilkom-ui"
+  },
+  {
+    "id": "award-10",
+    "title": "3rd Place in Youth Scientific Writing – Technology Innovation @  DISPORA Jakarta Pusat",
+    "organization": "DISPORA",
+    "date": "July 2025",
+    "award_date": "2025-07-17"
   },
   {
     "id": "award-26",
