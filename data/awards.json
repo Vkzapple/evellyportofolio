@@ -70,17 +70,17 @@
     "award_date": "2022-02-10"
   },
   {
-    "id": "award-22",
-    "title": "Honorable Mention in Social Competition @ National Science & Social Competition",
-    "organization": "kemendikbud",
-    "date": "2021",
-    "award_date": "2021-02-11"
-  },
-  {
     "title": "Finalist DATATHON 2026 - RISTEK FASILKOM UI",
     "organization": "RISTEK FASILKOM UI",
     "date": "Agustus 2026",
     "award_date": "2026-08-30",
     "id": "finalist-datathon-2026-ristek-fasilkom-ui"
+  },
+  {
+    "id": "award-22",
+    "title": "Honorable Mention in Social Competition @ National Science & Social Competition",
+    "organization": "kemendikbud",
+    "date": "2021",
+    "award_date": "2021-02-11"
   }
 ]
