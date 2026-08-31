@@ -49,18 +49,18 @@
     "award_date": "2025-02-20"
   },
   {
-    "id": "award-24",
-    "title": "1st Place in Cerdas Cermat LITECROWLED @ SMAN 2 Jakarta",
-    "organization": "SMAN 2 Jakarta",
-    "date": "January 2025",
-    "award_date": "2025-01-10"
-  },
-  {
     "title": "Finalist DATATHON 2026 - RISTEK FASILKOM UI",
     "organization": "RISTEK FASILKOM UI",
     "date": "Agustus 2026",
     "award_date": "2026-08-30",
     "id": "finalist-datathon-2026-ristek-fasilkom-ui"
+  },
+  {
+    "id": "award-24",
+    "title": "1st Place in Cerdas Cermat LITECROWLED @ SMAN 2 Jakarta",
+    "organization": "SMAN 2 Jakarta",
+    "date": "January 2025",
+    "award_date": "2025-01-10"
   },
   {
     "id": "award-12",
