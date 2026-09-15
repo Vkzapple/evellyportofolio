@@ -25,13 +25,13 @@
     "date": "January 2025 - June 2025"
   },
   {
-    "title": "President - Student Council (OSIS)",
-    "date": "2022 - 2023",
-    "id": "president-student-council-osis"
-  },
-  {
     "title": "Cohort Samsung Solve Tomorrow",
     "date": "Juni 2026 - Oktober 2026",
     "id": "semifinalis-samsung-solve-tomorrow"
+  },
+  {
+    "title": "President - Student Council (OSIS)",
+    "date": "2022 - 2023",
+    "id": "president-student-council-osis"
   }
 ]
