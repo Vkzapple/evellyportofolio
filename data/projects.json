@@ -70,6 +70,21 @@
     "image": "assets/projects/sigema.png"
   },
   {
+    "title": "JALA -  JakLingko Auto-Locate Assistant",
+    "description": "JALA is an AI-powered smart public transportation system designed to improve passenger accessibility and fleet efficiency for MikroTrans (JakLingko) services. By integrating IoT sensors and AI-based predictions into bus stops, the system detects waiting passengers in real time without requiring smartphones or mobile applications, while providing drivers with passenger alerts and helping fleet operators optimize vehicle dispatch through real-time sensor data.",
+    "category": "IoT",
+    "tech_stack": [
+      "C++",
+      "Python",
+      "TypeScript"
+    ],
+    "github_url": "https://github.com/Vkzapple/JALA",
+    "demo_url": null,
+    "featured": "LKS Nasional Kecerdasan Artifisial 2026",
+    "id": "jala-jaklingko-auto-locate-assistant",
+    "image": "assets/projects/jala-jaklingko-auto-locate-assistant.png"
+  },
+  {
     "id": "petvest",
     "title": "PETVEST",
     "description": "PetVest is a student-friendly financial management platform designed to help users track expenses, build saving habits, and learn basic investment concepts in a simple and engaging way. The platform features interactive animal characters to create a more fun and approachable financial learning experience for students.",
@@ -86,21 +101,6 @@
     "demo_url": "https://pet-vest.vercel.app/",
     "featured": null,
     "image": "assets/projects/petvest.png"
-  },
-  {
-    "title": "JALA -  JakLingko Auto-Locate Assistant",
-    "description": "JALA is an AI-powered smart public transportation system designed to improve passenger accessibility and fleet efficiency for MikroTrans (JakLingko) services. By integrating IoT sensors and AI-based predictions into bus stops, the system detects waiting passengers in real time without requiring smartphones or mobile applications, while providing drivers with passenger alerts and helping fleet operators optimize vehicle dispatch through real-time sensor data.",
-    "category": "IoT",
-    "tech_stack": [
-      "C++",
-      "Python",
-      "TypeScript"
-    ],
-    "github_url": "https://github.com/Vkzapple/JALA",
-    "demo_url": null,
-    "featured": "LKS Nasional Kecerdasan Artifisial 2026",
-    "id": "jala-jaklingko-auto-locate-assistant",
-    "image": "assets/projects/jala-jaklingko-auto-locate-assistant.png"
   },
   {
     "id": "website-kkn",
