@@ -208,6 +208,23 @@
     "image": "assets/projects/project-4.png"
   },
   {
+    "id": "erobo-AI",
+    "title": "EROBO AI - STEM",
+    "description": "AI-powered STEM research assistant for automated journal monitoring, Indonesian-language summarization, and research gap discovery.",
+    "category": "AI",
+    "tech_stack": [
+      "Next.js",
+      "React",
+      "JavaScript",
+      "Typescript",
+      "LLM"
+    ],
+    "github_url": "https://github.com/Vkzapple/eroboAI",
+    "demo_url": null,
+    "featured": "Live Demo available upon request.",
+    "image": "assets/projects/erobo-ai.png"
+  },
+  {
     "id": "nutry-cycle",
     "title": "NutryCycle",
     "description": "Intelligent web application for UMKM business location and type selection powered by ANP and MOORA algorithms.",
@@ -224,22 +241,5 @@
     "demo_url": null,
     "featured": null,
     "image": "assets/projects/nutry-cycle.png"
-  },
-  {
-    "id": "erobo-AI",
-    "title": "EROBO AI - STEM",
-    "description": "AI-powered STEM research assistant for automated journal monitoring, Indonesian-language summarization, and research gap discovery.",
-    "category": "AI",
-    "tech_stack": [
-      "Next.js",
-      "React",
-      "JavaScript",
-      "Typescript",
-      "LLM"
-    ],
-    "github_url": "https://github.com/Vkzapple/eroboAI",
-    "demo_url": null,
-    "featured": "Live Demo available upon request.",
-    "image": "assets/projects/erobo-ai.png"
   }
 ]
