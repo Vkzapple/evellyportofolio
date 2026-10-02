@@ -195,6 +195,22 @@
     "image": "assets/projects/nutry-cycle.png"
   },
   {
+    "title": "Fabrix AI",
+    "description": "FABRIX AI is a web-based fabric inspection platform designed to help textile and garment SMEs improve quality control through automated defect detection, quality classification, and cutting guidance. The platform integrates deep learning (YOLO via Roboflow) and machine learning (XGBoost) to streamline fabric inspection, reduce human error, and generate consistent, exportable PDF reports for easier documentation and analysis.",
+    "category": "AI",
+    "tech_stack": [
+      "TypeScript",
+      "Python",
+      "JavaScript",
+      "Yolo V5"
+    ],
+    "github_url": "https://github.com/Vkzapple/FABRIX-AI",
+    "demo_url": "https://fabrixai.vercel.app/",
+    "featured": null,
+    "id": "fabrix-ai",
+    "image": "assets/projects/fabrix-ai.png"
+  },
+  {
     "id": "erobo-AI",
     "title": "EROBO AI - STEM",
     "description": "AI-powered STEM research assistant for automated journal monitoring, Indonesian-language summarization, and research gap discovery.",
@@ -210,21 +226,5 @@
     "demo_url": null,
     "featured": "Live Demo available upon request.",
     "image": "assets/projects/erobo-ai.png"
-  },
-  {
-    "title": "Fabrix AI",
-    "description": "FABRIX AI is a web-based fabric inspection platform designed to help textile and garment SMEs improve quality control through automated defect detection, quality classification, and cutting guidance. The platform integrates deep learning (YOLO via Roboflow) and machine learning (XGBoost) to streamline fabric inspection, reduce human error, and generate consistent, exportable PDF reports for easier documentation and analysis.",
-    "category": "AI",
-    "tech_stack": [
-      "TypeScript",
-      "Python",
-      "JavaScript",
-      "Yolo V5"
-    ],
-    "github_url": "https://github.com/Vkzapple/FABRIX-AI",
-    "demo_url": "https://fabrixai.vercel.app/",
-    "featured": null,
-    "id": "fabrix-ai",
-    "image": "assets/projects/fabrix-ai.png"
   }
 ]
