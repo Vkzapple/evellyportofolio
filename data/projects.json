@@ -119,20 +119,6 @@
     "image": "assets/projects/sembago.png"
   },
   {
-    "id": "project-3",
-    "title": "NYAWIT – Panen Monitoring",
-    "description": "NYAWIT – Panen Monitoring is a mobile-based harvest monitoring application developed to simplify palm oil harvest data recording and visualization in real time. The app provides features for inputting harvest results, tracking production data, and analyzing harvest trends through interactive graphs to support more efficient field management.",
-    "category": "Mobile",
-    "tech_stack": [
-      "Kodular",
-      "Block Coding"
-    ],
-    "github_url": null,
-    "demo_url": null,
-    "featured": "Client-based project developed for palm oil harvest monitoring and field data management purposes.",
-    "image": "assets/projects/project-3.png"
-  },
-  {
     "title": "Fabrix AI",
     "description": "FABRIX AI is a web-based fabric inspection platform designed to help textile and garment SMEs improve quality control through automated defect detection, quality classification, and cutting guidance. The platform integrates deep learning (YOLO via Roboflow) and machine learning (XGBoost) to streamline fabric inspection, reduce human error, and generate consistent, exportable PDF reports for easier documentation and analysis.",
     "category": "AI",
@@ -147,6 +133,20 @@
     "featured": null,
     "id": "fabrix-ai",
     "image": "assets/projects/fabrix-ai.png"
+  },
+  {
+    "id": "project-3",
+    "title": "NYAWIT – Panen Monitoring",
+    "description": "NYAWIT – Panen Monitoring is a mobile-based harvest monitoring application developed to simplify palm oil harvest data recording and visualization in real time. The app provides features for inputting harvest results, tracking production data, and analyzing harvest trends through interactive graphs to support more efficient field management.",
+    "category": "Mobile",
+    "tech_stack": [
+      "Kodular",
+      "Block Coding"
+    ],
+    "github_url": null,
+    "demo_url": null,
+    "featured": "Client-based project developed for palm oil harvest monitoring and field data management purposes.",
+    "image": "assets/projects/project-3.png"
   },
   {
     "id": "project-2",
