@@ -133,20 +133,6 @@
     "image": "assets/projects/project-3.png"
   },
   {
-    "id": "project-2",
-    "title": "CURION",
-    "description": "Mobile app design addressing social and environmental issues.",
-    "category": "UI/UX",
-    "tech_stack": [
-      "FIGMA",
-      "DESIGN"
-    ],
-    "github_url": null,
-    "demo_url": null,
-    "featured": "Prototype available upon request",
-    "image": "assets/projects/project-2.jpg"
-  },
-  {
     "title": "Fabrix AI",
     "description": "FABRIX AI is a web-based fabric inspection platform designed to help textile and garment SMEs improve quality control through automated defect detection, quality classification, and cutting guidance. The platform integrates deep learning (YOLO via Roboflow) and machine learning (XGBoost) to streamline fabric inspection, reduce human error, and generate consistent, exportable PDF reports for easier documentation and analysis.",
     "category": "AI",
@@ -161,6 +147,20 @@
     "featured": null,
     "id": "fabrix-ai",
     "image": "assets/projects/fabrix-ai.png"
+  },
+  {
+    "id": "project-2",
+    "title": "CURION",
+    "description": "Mobile app design addressing social and environmental issues.",
+    "category": "UI/UX",
+    "tech_stack": [
+      "FIGMA",
+      "DESIGN"
+    ],
+    "github_url": null,
+    "demo_url": null,
+    "featured": "Prototype available upon request",
+    "image": "assets/projects/project-2.jpg"
   },
   {
     "id": "project-1",
