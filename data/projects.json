@@ -226,5 +226,20 @@
     "demo_url": null,
     "featured": "Live Demo available upon request.",
     "image": "assets/projects/erobo-ai.png"
+  },
+  {
+    "title": "JALA -  JakLingko Auto-Locate Assistant",
+    "description": "JALA is an AI-powered smart public transportation system designed to improve passenger accessibility and fleet efficiency for MikroTrans (JakLingko) services. By integrating IoT sensors and AI-based predictions into bus stops, the system detects waiting passengers in real time without requiring smartphones or mobile applications, while providing drivers with passenger alerts and helping fleet operators optimize vehicle dispatch through real-time sensor data.",
+    "category": "IoT",
+    "tech_stack": [
+      "C++",
+      "Python",
+      "TypeScript"
+    ],
+    "github_url": "https://github.com/Vkzapple/JALA",
+    "demo_url": null,
+    "featured": "LKS Nasional Kecerdasan Artifisial 2026",
+    "id": "jala-jaklingko-auto-locate-assistant",
+    "image": "assets/projects/jala-jaklingko-auto-locate-assistant.png"
   }
 ]
