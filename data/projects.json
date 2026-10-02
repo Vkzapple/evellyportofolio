@@ -14,6 +14,22 @@
     "image": "assets/projects/game-1.png"
   },
   {
+    "title": "Fabrix AI",
+    "description": "FABRIX AI is a web-based fabric inspection platform designed to help textile and garment SMEs improve quality control through automated defect detection, quality classification, and cutting guidance. The platform integrates deep learning (YOLO via Roboflow) and machine learning (XGBoost) to streamline fabric inspection, reduce human error, and generate consistent, exportable PDF reports for easier documentation and analysis.",
+    "category": "AI",
+    "tech_stack": [
+      "TypeScript",
+      "Python",
+      "JavaScript",
+      "Yolo V5"
+    ],
+    "github_url": "https://github.com/Vkzapple/FABRIX-AI",
+    "demo_url": "https://fabrixai.vercel.app/",
+    "featured": null,
+    "id": "fabrix-ai",
+    "image": "assets/projects/fabrix-ai.png"
+  },
+  {
     "id": "petvest",
     "title": "PETVEST",
     "description": "PetVest is a student-friendly financial management platform designed to help users track expenses, build saving habits, and learn basic investment concepts in a simple and engaging way. The platform features interactive animal characters to create a more fun and approachable financial learning experience for students.",
@@ -30,22 +46,6 @@
     "demo_url": "https://pet-vest.vercel.app/",
     "featured": null,
     "image": "assets/projects/petvest.png"
-  },
-  {
-    "title": "Fabrix AI",
-    "description": "FABRIX AI is a web-based fabric inspection platform designed to help textile and garment SMEs improve quality control through automated defect detection, quality classification, and cutting guidance. The platform integrates deep learning (YOLO via Roboflow) and machine learning (XGBoost) to streamline fabric inspection, reduce human error, and generate consistent, exportable PDF reports for easier documentation and analysis.",
-    "category": "AI",
-    "tech_stack": [
-      "TypeScript",
-      "Python",
-      "JavaScript",
-      "Yolo V5"
-    ],
-    "github_url": "https://github.com/Vkzapple/FABRIX-AI",
-    "demo_url": "https://fabrixai.vercel.app/",
-    "featured": null,
-    "id": "fabrix-ai",
-    "image": "assets/projects/fabrix-ai.png"
   },
   {
     "id": "Insighta-UMKM",
