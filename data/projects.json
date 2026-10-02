@@ -32,6 +32,22 @@
     "image": "assets/projects/petvest.png"
   },
   {
+    "title": "Fabrix AI",
+    "description": "FABRIX AI is a web-based fabric inspection platform designed to help textile and garment SMEs improve quality control through automated defect detection, quality classification, and cutting guidance. The platform integrates deep learning (YOLO via Roboflow) and machine learning (XGBoost) to streamline fabric inspection, reduce human error, and generate consistent, exportable PDF reports for easier documentation and analysis.",
+    "category": "AI",
+    "tech_stack": [
+      "TypeScript",
+      "Python",
+      "JavaScript",
+      "Yolo V5"
+    ],
+    "github_url": "https://github.com/Vkzapple/FABRIX-AI",
+    "demo_url": "https://fabrixai.vercel.app/",
+    "featured": null,
+    "id": "fabrix-ai",
+    "image": "assets/projects/fabrix-ai.png"
+  },
+  {
     "id": "Insighta-UMKM",
     "title": "Insighta UMKM",
     "description": "Insighta UMKM is a machine learning-powered dashboard that analyzes Indonesian marketplace reviews using sentiment analysis and topic modeling. The platform helps MSMEs identify customer satisfaction trends and key business insights through interactive visualizations.",
@@ -53,22 +69,6 @@
     "demo_url": null,
     "featured": null,
     "image": "assets/projects/insighta-umkm.png"
-  },
-  {
-    "title": "Fabrix AI",
-    "description": "FABRIX AI is a web-based fabric inspection platform designed to help textile and garment SMEs improve quality control through automated defect detection, quality classification, and cutting guidance. The platform integrates deep learning (YOLO via Roboflow) and machine learning (XGBoost) to streamline fabric inspection, reduce human error, and generate consistent, exportable PDF reports for easier documentation and analysis.",
-    "category": "AI",
-    "tech_stack": [
-      "TypeScript",
-      "Python",
-      "JavaScript",
-      "Yolo V5"
-    ],
-    "github_url": "https://github.com/Vkzapple/FABRIX-AI",
-    "demo_url": "https://fabrixai.vercel.app/",
-    "featured": null,
-    "id": "fabrix-ai",
-    "image": "assets/projects/fabrix-ai.png"
   },
   {
     "id": "website-kkn",
