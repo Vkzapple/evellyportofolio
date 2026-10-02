@@ -181,20 +181,6 @@
     "image": "assets/projects/sembago.png"
   },
   {
-    "id": "project-2",
-    "title": "CURION",
-    "description": "Mobile app design addressing social and environmental issues.",
-    "category": "UI/UX",
-    "tech_stack": [
-      "FIGMA",
-      "DESIGN"
-    ],
-    "github_url": null,
-    "demo_url": null,
-    "featured": "Prototype available upon request",
-    "image": "assets/projects/project-2.jpg"
-  },
-  {
     "id": "nutry-cycle",
     "title": "NutryCycle",
     "description": "Intelligent web application for UMKM business location and type selection powered by ANP and MOORA algorithms.",
@@ -211,6 +197,20 @@
     "demo_url": null,
     "featured": null,
     "image": "assets/projects/nutry-cycle.png"
+  },
+  {
+    "id": "project-2",
+    "title": "CURION",
+    "description": "Mobile app design addressing social and environmental issues.",
+    "category": "UI/UX",
+    "tech_stack": [
+      "FIGMA",
+      "DESIGN"
+    ],
+    "github_url": null,
+    "demo_url": null,
+    "featured": "Prototype available upon request",
+    "image": "assets/projects/project-2.jpg"
   },
   {
     "id": "project-1",
