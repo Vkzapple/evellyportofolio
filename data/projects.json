@@ -178,22 +178,6 @@
     "image": "assets/projects/project-2.jpg"
   },
   {
-    "id": "project-1",
-    "title": "SIGAB ",
-    "description": "SIGAB - Sistem Informasi Gempa dan Mitigasi Bencana\nEarthquake mitigation and real-time monitoring web app using BMKG API and Leaflet.js.",
-    "category": "Web",
-    "tech_stack": [
-      "HTML",
-      "CSS",
-      "JAVASCRIPT",
-      "leaftlet.js"
-    ],
-    "github_url": "https://github.com/Vkzapple/Mitigasi-Gempa",
-    "demo_url": "https://sigab.vercel.app/",
-    "featured": null,
-    "image": "assets/projects/project-1.png"
-  },
-  {
     "id": "erobo-AI",
     "title": "EROBO AI - STEM",
     "description": "AI-powered STEM research assistant for automated journal monitoring, Indonesian-language summarization, and research gap discovery.",
@@ -209,6 +193,22 @@
     "demo_url": null,
     "featured": "Live Demo available upon request.",
     "image": "assets/projects/erobo-ai.png"
+  },
+  {
+    "id": "project-1",
+    "title": "SIGAB ",
+    "description": "SIGAB - Sistem Informasi Gempa dan Mitigasi Bencana\nEarthquake mitigation and real-time monitoring web app using BMKG API and Leaflet.js.",
+    "category": "Web",
+    "tech_stack": [
+      "HTML",
+      "CSS",
+      "JAVASCRIPT",
+      "leaftlet.js"
+    ],
+    "github_url": "https://github.com/Vkzapple/Mitigasi-Gempa",
+    "demo_url": "https://sigab.vercel.app/",
+    "featured": null,
+    "image": "assets/projects/project-1.png"
   },
   {
     "id": "project-4",
