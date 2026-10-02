@@ -1,5 +1,20 @@
 [
   {
+    "title": "Student AI & IoT Engineer @ Samsung Innovation Campus 2026",
+    "date": "August 2026 - December 2026",
+    "id": "student-ai-iot-engineer-samsung-innovation-campus"
+  },
+  {
+    "title": "Cohort Samsung Solve Tomorrow 2026",
+    "date": "June 2026 - October 2026",
+    "id": "semifinalis-samsung-solve-tomorrow"
+  },
+  {
+    "title": "President - Engineering Researcher of Boedi Oetomo (KIR EROBO)",
+    "date": "June 2025 - June 2026",
+    "id": "president-engineering-researcher-of-boedi-oetomo-kir-erobo"
+  },
+  {
     "id": "exp-1",
     "title": "AWS Back-End Academy @ DBS Foundation",
     "date": "July 2025 - August 2025"
@@ -11,7 +26,12 @@
   },
   {
     "id": "exp-3",
-    "title": "Student AI & IoT Engineer @ Samsung Innovation Campus",
+    "title": "Student AI & IoT Engineer @ Samsung Innovation Campus 2025",
     "date": "January 2025 - June 2025"
+  },
+  {
+    "title": "President - Student Council (OSIS)",
+    "date": "2022 - 2023",
+    "id": "president-student-council-osis"
   }
 ]
