@@ -85,6 +85,23 @@
     "image": "assets/projects/insighta-umkm.png"
   },
   {
+    "id": "project",
+    "title": "SignaText",
+    "description": "SignaText combines website development and Machine Learning to help people with disabilities communicate more easily.",
+    "category": "AI",
+    "tech_stack": [
+      "Python",
+      "Yolo",
+      "Laravel",
+      "HTML",
+      "CSS"
+    ],
+    "github_url": "https://github.com/Vkzapple/Signatext",
+    "demo_url": "https://signatext.vercel.app/",
+    "featured": "Capstone Project for Fullstack Web Developer Cohort @ Bank DBS | DBS Foundation (April 2025).",
+    "image": "assets/projects/project.png"
+  },
+  {
     "id": "petvest",
     "title": "PETVEST",
     "description": "PetVest is a student-friendly financial management platform designed to help users track expenses, build saving habits, and learn basic investment concepts in a simple and engaging way. The platform features interactive animal characters to create a more fun and approachable financial learning experience for students.",
@@ -101,23 +118,6 @@
     "demo_url": "https://pet-vest.vercel.app/",
     "featured": null,
     "image": "assets/projects/petvest.png"
-  },
-  {
-    "id": "project",
-    "title": "SignaText",
-    "description": "SignaText combines website development and Machine Learning to help people with disabilities communicate more easily.",
-    "category": "AI",
-    "tech_stack": [
-      "Python",
-      "Yolo",
-      "Laravel",
-      "HTML",
-      "CSS"
-    ],
-    "github_url": "https://github.com/Vkzapple/Signatext",
-    "demo_url": "https://signatext.vercel.app/",
-    "featured": "Capstone Project for Fullstack Web Developer Cohort @ Bank DBS | DBS Foundation (April 2025).",
-    "image": "assets/projects/project.png"
   },
   {
     "id": "website-kkn",
