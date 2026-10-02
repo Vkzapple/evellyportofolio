@@ -195,22 +195,6 @@
     "image": "assets/projects/project-2.jpg"
   },
   {
-    "id": "project-1",
-    "title": "SIGAB ",
-    "description": "SIGAB - Sistem Informasi Gempa dan Mitigasi Bencana\nEarthquake mitigation and real-time monitoring web app using BMKG API and Leaflet.js.",
-    "category": "Web",
-    "tech_stack": [
-      "HTML",
-      "CSS",
-      "JAVASCRIPT",
-      "leaftlet.js"
-    ],
-    "github_url": "https://github.com/Vkzapple/Mitigasi-Gempa",
-    "demo_url": "https://sigab.vercel.app/",
-    "featured": null,
-    "image": "assets/projects/project-1.png"
-  },
-  {
     "id": "nutry-cycle",
     "title": "NutryCycle",
     "description": "Intelligent web application for UMKM business location and type selection powered by ANP and MOORA algorithms.",
@@ -227,6 +211,22 @@
     "demo_url": null,
     "featured": null,
     "image": "assets/projects/nutry-cycle.png"
+  },
+  {
+    "id": "project-1",
+    "title": "SIGAB ",
+    "description": "SIGAB - Sistem Informasi Gempa dan Mitigasi Bencana\nEarthquake mitigation and real-time monitoring web app using BMKG API and Leaflet.js.",
+    "category": "Web",
+    "tech_stack": [
+      "HTML",
+      "CSS",
+      "JAVASCRIPT",
+      "leaftlet.js"
+    ],
+    "github_url": "https://github.com/Vkzapple/Mitigasi-Gempa",
+    "demo_url": "https://sigab.vercel.app/",
+    "featured": null,
+    "image": "assets/projects/project-1.png"
   },
   {
     "id": "project-4",
