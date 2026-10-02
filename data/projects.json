@@ -62,6 +62,23 @@
     "image": "assets/projects/sigema.png"
   },
   {
+    "id": "project",
+    "title": "SignaText",
+    "description": "SignaText combines website development and Machine Learning to help people with disabilities communicate more easily.",
+    "category": "AI",
+    "tech_stack": [
+      "Python",
+      "Yolo",
+      "Laravel",
+      "HTML",
+      "CSS"
+    ],
+    "github_url": "https://github.com/Vkzapple/Signatext",
+    "demo_url": "https://signatext.vercel.app/",
+    "featured": "Capstone Project for Fullstack Web Developer Cohort @ Bank DBS | DBS Foundation (April 2025).",
+    "image": "assets/projects/project.png"
+  },
+  {
     "id": "Insighta-UMKM",
     "title": "Insighta UMKM",
     "description": "Insighta UMKM is a machine learning-powered dashboard that analyzes Indonesian marketplace reviews using sentiment analysis and topic modeling. The platform helps MSMEs identify customer satisfaction trends and key business insights through interactive visualizations.",
@@ -83,23 +100,6 @@
     "demo_url": null,
     "featured": null,
     "image": "assets/projects/insighta-umkm.png"
-  },
-  {
-    "id": "project",
-    "title": "SignaText",
-    "description": "SignaText combines website development and Machine Learning to help people with disabilities communicate more easily.",
-    "category": "AI",
-    "tech_stack": [
-      "Python",
-      "Yolo",
-      "Laravel",
-      "HTML",
-      "CSS"
-    ],
-    "github_url": "https://github.com/Vkzapple/Signatext",
-    "demo_url": "https://signatext.vercel.app/",
-    "featured": "Capstone Project for Fullstack Web Developer Cohort @ Bank DBS | DBS Foundation (April 2025).",
-    "image": "assets/projects/project.png"
   },
   {
     "id": "petvest",
