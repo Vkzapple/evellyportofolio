@@ -55,21 +55,6 @@
     "image": "assets/projects/insighta-umkm.png"
   },
   {
-    "id": "website-kkn",
-    "title": "Website KKN - Desa Bandar Klippa",
-    "description": "Website Desa Bandar Klippa is a digital village administration platform developed to simplify public service processes for residents of Desa Bandar Klippa. The website provides fast, transparent, and accessible administrative letter services through a modern web-based system.",
-    "category": "Web",
-    "tech_stack": [
-      "Next.js",
-      "React",
-      "JavaScript"
-    ],
-    "github_url": null,
-    "demo_url": "https://desa-klippa.vercel.app/publik",
-    "featured": "Source code is not publicly available due to active community use and administrative privacy considerations.",
-    "image": "assets/projects/website-kkn.png"
-  },
-  {
     "title": "Fabrix AI",
     "description": "FABRIX AI is a web-based fabric inspection platform designed to help textile and garment SMEs improve quality control through automated defect detection, quality classification, and cutting guidance. The platform integrates deep learning (YOLO via Roboflow) and machine learning (XGBoost) to streamline fabric inspection, reduce human error, and generate consistent, exportable PDF reports for easier documentation and analysis.",
     "category": "AI",
@@ -84,6 +69,21 @@
     "featured": null,
     "id": "fabrix-ai",
     "image": "assets/projects/fabrix-ai.png"
+  },
+  {
+    "id": "website-kkn",
+    "title": "Website KKN - Desa Bandar Klippa",
+    "description": "Website Desa Bandar Klippa is a digital village administration platform developed to simplify public service processes for residents of Desa Bandar Klippa. The website provides fast, transparent, and accessible administrative letter services through a modern web-based system.",
+    "category": "Web",
+    "tech_stack": [
+      "Next.js",
+      "React",
+      "JavaScript"
+    ],
+    "github_url": null,
+    "demo_url": "https://desa-klippa.vercel.app/publik",
+    "featured": "Source code is not publicly available due to active community use and administrative privacy considerations.",
+    "image": "assets/projects/website-kkn.png"
   },
   {
     "id": "sigema",
