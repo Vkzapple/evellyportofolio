@@ -164,20 +164,6 @@
     "image": "assets/projects/sembago.png"
   },
   {
-    "id": "project-2",
-    "title": "CURION",
-    "description": "Mobile app design addressing social and environmental issues.",
-    "category": "UI/UX",
-    "tech_stack": [
-      "FIGMA",
-      "DESIGN"
-    ],
-    "github_url": null,
-    "demo_url": null,
-    "featured": "Prototype available upon request",
-    "image": "assets/projects/project-2.jpg"
-  },
-  {
     "id": "erobo-AI",
     "title": "EROBO AI - STEM",
     "description": "AI-powered STEM research assistant for automated journal monitoring, Indonesian-language summarization, and research gap discovery.",
@@ -193,6 +179,20 @@
     "demo_url": null,
     "featured": "Live Demo available upon request.",
     "image": "assets/projects/erobo-ai.png"
+  },
+  {
+    "id": "project-2",
+    "title": "CURION",
+    "description": "Mobile app design addressing social and environmental issues.",
+    "category": "UI/UX",
+    "tech_stack": [
+      "FIGMA",
+      "DESIGN"
+    ],
+    "github_url": null,
+    "demo_url": null,
+    "featured": "Prototype available upon request",
+    "image": "assets/projects/project-2.jpg"
   },
   {
     "id": "project-1",
