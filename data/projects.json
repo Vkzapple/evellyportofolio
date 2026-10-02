@@ -149,20 +149,6 @@
     "image": "assets/projects/project-3.png"
   },
   {
-    "id": "project-2",
-    "title": "CURION",
-    "description": "Mobile app design addressing social and environmental issues.",
-    "category": "UI/UX",
-    "tech_stack": [
-      "FIGMA",
-      "DESIGN"
-    ],
-    "github_url": null,
-    "demo_url": null,
-    "featured": "Prototype available upon request",
-    "image": "assets/projects/project-2.jpg"
-  },
-  {
     "title": "JALA -  JakLingko Auto-Locate Assistant",
     "description": "JALA is an AI-powered smart public transportation system designed to improve passenger accessibility and fleet efficiency for MikroTrans (JakLingko) services. By integrating IoT sensors and AI-based predictions into bus stops, the system detects waiting passengers in real time without requiring smartphones or mobile applications, while providing drivers with passenger alerts and helping fleet operators optimize vehicle dispatch through real-time sensor data.",
     "category": "IoT",
@@ -176,6 +162,20 @@
     "featured": "LKS Nasional Kecerdasan Artifisial 2026",
     "id": "jala-jaklingko-auto-locate-assistant",
     "image": "assets/projects/jala-jaklingko-auto-locate-assistant.png"
+  },
+  {
+    "id": "project-2",
+    "title": "CURION",
+    "description": "Mobile app design addressing social and environmental issues.",
+    "category": "UI/UX",
+    "tech_stack": [
+      "FIGMA",
+      "DESIGN"
+    ],
+    "github_url": null,
+    "demo_url": null,
+    "featured": "Prototype available upon request",
+    "image": "assets/projects/project-2.jpg"
   },
   {
     "id": "project-1",
