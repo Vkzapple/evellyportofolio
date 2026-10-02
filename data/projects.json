@@ -103,21 +103,6 @@
     "image": "assets/projects/petvest.png"
   },
   {
-    "id": "website-kkn",
-    "title": "Website KKN - Desa Bandar Klippa",
-    "description": "Website Desa Bandar Klippa is a digital village administration platform developed to simplify public service processes for residents of Desa Bandar Klippa. The website provides fast, transparent, and accessible administrative letter services through a modern web-based system.",
-    "category": "Web",
-    "tech_stack": [
-      "Next.js",
-      "React",
-      "JavaScript"
-    ],
-    "github_url": null,
-    "demo_url": "https://desa-klippa.vercel.app/publik",
-    "featured": "Source code is not publicly available due to active community use and administrative privacy considerations.",
-    "image": "assets/projects/website-kkn.png"
-  },
-  {
     "id": "project",
     "title": "SignaText",
     "description": "SignaText combines website development and Machine Learning to help people with disabilities communicate more easily.",
@@ -133,6 +118,21 @@
     "demo_url": "https://signatext.vercel.app/",
     "featured": "Capstone Project for Fullstack Web Developer Cohort @ Bank DBS | DBS Foundation (April 2025).",
     "image": "assets/projects/project.png"
+  },
+  {
+    "id": "website-kkn",
+    "title": "Website KKN - Desa Bandar Klippa",
+    "description": "Website Desa Bandar Klippa is a digital village administration platform developed to simplify public service processes for residents of Desa Bandar Klippa. The website provides fast, transparent, and accessible administrative letter services through a modern web-based system.",
+    "category": "Web",
+    "tech_stack": [
+      "Next.js",
+      "React",
+      "JavaScript"
+    ],
+    "github_url": null,
+    "demo_url": "https://desa-klippa.vercel.app/publik",
+    "featured": "Source code is not publicly available due to active community use and administrative privacy considerations.",
+    "image": "assets/projects/website-kkn.png"
   },
   {
     "id": "sembaGO",
