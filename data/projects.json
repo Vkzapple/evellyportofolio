@@ -166,21 +166,6 @@
     "image": "assets/projects/erobo-ai.png"
   },
   {
-    "id": "sembaGO",
-    "title": "sembaGO Mart",
-    "description": "SembaGO Mart is a responsive grocery marketplace website designed to simplify online shopping for daily household needs with fast delivery and cash-on-delivery support. Built with a clean and user-friendly interface, the platform focuses on accessibility, promotional visibility, and seamless customer interaction for local consumers.",
-    "category": "Web",
-    "tech_stack": [
-      "HTML",
-      "Tailwind CSS",
-      "JavaScrip"
-    ],
-    "github_url": "https://github.com/Vkzapple/kekepet-mart/tree/main",
-    "demo_url": "https://sembagomart.vercel.app/#",
-    "featured": "Client-based project developed for a local grocery business to support digital product promotion and online ordering services.",
-    "image": "assets/projects/sembago.png"
-  },
-  {
     "id": "nutry-cycle",
     "title": "NutryCycle",
     "description": "Intelligent web application for UMKM business location and type selection powered by ANP and MOORA algorithms.",
@@ -197,6 +182,21 @@
     "demo_url": null,
     "featured": null,
     "image": "assets/projects/nutry-cycle.png"
+  },
+  {
+    "id": "sembaGO",
+    "title": "sembaGO Mart",
+    "description": "SembaGO Mart is a responsive grocery marketplace website designed to simplify online shopping for daily household needs with fast delivery and cash-on-delivery support. Built with a clean and user-friendly interface, the platform focuses on accessibility, promotional visibility, and seamless customer interaction for local consumers.",
+    "category": "Web",
+    "tech_stack": [
+      "HTML",
+      "Tailwind CSS",
+      "JavaScrip"
+    ],
+    "github_url": "https://github.com/Vkzapple/kekepet-mart/tree/main",
+    "demo_url": "https://sembagomart.vercel.app/#",
+    "featured": "Client-based project developed for a local grocery business to support digital product promotion and online ordering services.",
+    "image": "assets/projects/sembago.png"
   },
   {
     "id": "project-2",
