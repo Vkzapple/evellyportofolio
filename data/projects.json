@@ -147,22 +147,6 @@
     "image": "assets/projects/project-2.jpg"
   },
   {
-    "id": "project-1",
-    "title": "SIGAB ",
-    "description": "SIGAB - Sistem Informasi Gempa dan Mitigasi Bencana\nEarthquake mitigation and real-time monitoring web app using BMKG API and Leaflet.js.",
-    "category": "Web",
-    "tech_stack": [
-      "HTML",
-      "CSS",
-      "JAVASCRIPT",
-      "leaftlet.js"
-    ],
-    "github_url": "https://github.com/Vkzapple/Mitigasi-Gempa",
-    "demo_url": "https://sigab.vercel.app/",
-    "featured": null,
-    "image": "assets/projects/project-1.png"
-  },
-  {
     "title": "Fabrix AI",
     "description": "FABRIX AI is a web-based fabric inspection platform designed to help textile and garment SMEs improve quality control through automated defect detection, quality classification, and cutting guidance. The platform integrates deep learning (YOLO via Roboflow) and machine learning (XGBoost) to streamline fabric inspection, reduce human error, and generate consistent, exportable PDF reports for easier documentation and analysis.",
     "category": "AI",
@@ -177,6 +161,22 @@
     "featured": null,
     "id": "fabrix-ai",
     "image": "assets/projects/fabrix-ai.png"
+  },
+  {
+    "id": "project-1",
+    "title": "SIGAB ",
+    "description": "SIGAB - Sistem Informasi Gempa dan Mitigasi Bencana\nEarthquake mitigation and real-time monitoring web app using BMKG API and Leaflet.js.",
+    "category": "Web",
+    "tech_stack": [
+      "HTML",
+      "CSS",
+      "JAVASCRIPT",
+      "leaftlet.js"
+    ],
+    "github_url": "https://github.com/Vkzapple/Mitigasi-Gempa",
+    "demo_url": "https://sigab.vercel.app/",
+    "featured": null,
+    "image": "assets/projects/project-1.png"
   },
   {
     "id": "project-4",
