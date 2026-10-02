@@ -88,21 +88,6 @@
     "image": "assets/projects/petvest.png"
   },
   {
-    "id": "website-kkn",
-    "title": "Website KKN - Desa Bandar Klippa",
-    "description": "Website Desa Bandar Klippa is a digital village administration platform developed to simplify public service processes for residents of Desa Bandar Klippa. The website provides fast, transparent, and accessible administrative letter services through a modern web-based system.",
-    "category": "Web",
-    "tech_stack": [
-      "Next.js",
-      "React",
-      "JavaScript"
-    ],
-    "github_url": null,
-    "demo_url": "https://desa-klippa.vercel.app/publik",
-    "featured": "Source code is not publicly available due to active community use and administrative privacy considerations.",
-    "image": "assets/projects/website-kkn.png"
-  },
-  {
     "title": "JALA -  JakLingko Auto-Locate Assistant",
     "description": "JALA is an AI-powered smart public transportation system designed to improve passenger accessibility and fleet efficiency for MikroTrans (JakLingko) services. By integrating IoT sensors and AI-based predictions into bus stops, the system detects waiting passengers in real time without requiring smartphones or mobile applications, while providing drivers with passenger alerts and helping fleet operators optimize vehicle dispatch through real-time sensor data.",
     "category": "IoT",
@@ -116,6 +101,21 @@
     "featured": "LKS Nasional Kecerdasan Artifisial 2026",
     "id": "jala-jaklingko-auto-locate-assistant",
     "image": "assets/projects/jala-jaklingko-auto-locate-assistant.png"
+  },
+  {
+    "id": "website-kkn",
+    "title": "Website KKN - Desa Bandar Klippa",
+    "description": "Website Desa Bandar Klippa is a digital village administration platform developed to simplify public service processes for residents of Desa Bandar Klippa. The website provides fast, transparent, and accessible administrative letter services through a modern web-based system.",
+    "category": "Web",
+    "tech_stack": [
+      "Next.js",
+      "React",
+      "JavaScript"
+    ],
+    "github_url": null,
+    "demo_url": "https://desa-klippa.vercel.app/publik",
+    "featured": "Source code is not publicly available due to active community use and administrative privacy considerations.",
+    "image": "assets/projects/website-kkn.png"
   },
   {
     "id": "project",
