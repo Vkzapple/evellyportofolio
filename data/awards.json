@@ -77,17 +77,17 @@
     "award_date": "2022-02-10"
   },
   {
-    "id": "award-22",
-    "title": "Honorable Mention in Social Competition @ National Science & Social Competition",
-    "organization": "kemendikbud",
-    "date": "2021",
-    "award_date": "2021-02-11"
-  },
-  {
     "title": "Top 30 Europe Women's Programming Contest 2026",
     "organization": "ICPC Foundation",
     "date": "July 2026",
     "award_date": "2026-07-04",
     "id": "top-30-europe-women-s-programming-contest-2026"
+  },
+  {
+    "id": "award-22",
+    "title": "Honorable Mention in Social Competition @ National Science & Social Competition",
+    "organization": "kemendikbud",
+    "date": "2021",
+    "award_date": "2021-02-11"
   }
 ]
