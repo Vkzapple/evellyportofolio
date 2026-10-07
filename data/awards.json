@@ -21,18 +21,18 @@
     "award_date": "2026-02-15"
   },
   {
-    "id": "award-18",
-    "title": "2nd Place in Scientific Paper - NITRO KIR @ SMAN 2 Jakarta",
-    "organization": "KIR-Nitro",
-    "date": "January 2026",
-    "award_date": "2026-01-24"
-  },
-  {
     "title": "Top 30 Europe Women's Programming Contest 2026",
     "organization": "ICPC Foundation",
     "date": "July 2026",
     "award_date": "2026-07-04",
     "id": "top-30-europe-women-s-programming-contest-2026"
+  },
+  {
+    "id": "award-18",
+    "title": "2nd Place in Scientific Paper - NITRO KIR @ SMAN 2 Jakarta",
+    "organization": "KIR-Nitro",
+    "date": "January 2026",
+    "award_date": "2026-01-24"
   },
   {
     "id": "award-14",
