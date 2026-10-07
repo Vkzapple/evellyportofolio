@@ -42,18 +42,18 @@
     "award_date": "2025-10-23"
   },
   {
-    "id": "award-10",
-    "title": "3rd Place in Youth Scientific Writing – Technology Innovation @  DISPORA Jakarta Pusat",
-    "organization": "DISPORA",
-    "date": "July 2025",
-    "award_date": "2025-07-17"
-  },
-  {
     "title": "Top 30 Europe Women's Programming Contest 2026",
     "organization": "ICPC Foundation",
     "date": "July 2026",
     "award_date": "2026-07-04",
     "id": "top-30-europe-women-s-programming-contest-2026"
+  },
+  {
+    "id": "award-10",
+    "title": "3rd Place in Youth Scientific Writing – Technology Innovation @  DISPORA Jakarta Pusat",
+    "organization": "DISPORA",
+    "date": "July 2025",
+    "award_date": "2025-07-17"
   },
   {
     "id": "award-26",
