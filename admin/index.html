@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex, nofollow" />
-  <title>Evelly CMS — Admin Dashboard</title>
+  <title>Admin Dashboard</title>
   <link rel="icon" type="image/jpeg" href="../icon.jpg" />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
@@ -46,23 +46,15 @@
     <div class="w-full max-w-md bg-neutral-900 rounded-2xl border border-neutral-800 p-8 space-y-6">
       <div class="text-center space-y-2">
         <h1 class="text-2xl font-bold">Evelly <span class="text-green-400">CMS</span></h1>
-        <p class="text-gray-400 text-sm">Personal content dashboard — login pakai GitHub Token</p>
+        <p class="text-gray-400 text-sm">Personal content dashboard</p>
       </div>
       <div class="space-y-4">
-        <div>
-          <label class="text-xs text-gray-400 block mb-1.5">GitHub Personal Access Token</label>
-          <input id="token-input" type="password" placeholder="github_pat_xxxx / ghp_xxxx" />
-        </div>
         <label class="flex items-center gap-2 text-xs text-gray-400 cursor-pointer">
           <input type="checkbox" id="remember-token" class="!w-auto accent-green-500" checked />
           Simpan token di browser ini (localStorage)
         </label>
         <button id="login-btn" class="btn btn-green w-full py-3">Masuk Dashboard</button>
         <p id="login-error" class="text-red-400 text-xs text-center hidden"></p>
-      </div>
-      <div class="border-t border-neutral-800 pt-4 text-xs text-gray-500 leading-relaxed">
-        <p class="font-semibold text-gray-400 mb-1">Cara bikin token:</p>
-        <p>GitHub → Settings → Developer settings → <b>Fine-grained tokens</b> → Generate new token → pilih repo <b>evellyportofolio</b> → Permissions: <b>Contents (Read and write)</b>.</p>
       </div>
     </div>
   </div>

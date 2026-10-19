@@ -77,9 +77,6 @@ if (menuToggle && mobileMenu) {
   });
 }
 
-// ================= PROJECTS =================
-// Content sekarang dikelola lewat dashboard CMS (folder /admin) dan disimpan
-// sebagai file JSON statis di folder /data — tidak perlu Strapi lagi.
 const DATA_BASE = "data";
 const projectsContainer = document.getElementById("projects-container");
 
