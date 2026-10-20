@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -178,6 +178,20 @@
         </h1>
         <p class="text-lg text-gray-400">Student | SoftEng @ SMKN 1 Jakarta</p>
         <p id="typing-text" class="text-xl text-gray-300 h-6"></p>
+
+        <!-- CTA -->
+        <div class="w-full sm:w-auto z-20">
+          <a
+            href="#experience-awards"
+            class="group inline-flex w-full sm:w-auto items-center justify-center gap-2 px-6 py-3 rounded-2xl bg-white text-black text-sm font-semibold hover:bg-neutral-200 transition-colors duration-300"
+          >
+            <span>See My Experience &amp; Awards</span>
+            <i
+              class="fas fa-arrow-down text-xs transition-transform duration-300 group-hover:translate-y-1"
+              aria-hidden="true"
+            ></i>
+          </a>
+        </div>
       </div>
 
       <div
@@ -251,7 +265,10 @@
 </section>
 
     <!-- Experience & Awards -->
-    <section class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12">
+    <section
+      id="experience-awards"
+      class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 scroll-mt-24"
+    >
       <!-- Experiences -->
       <div class="space-y-4">
         <div id="experience-container" class="space-y-4" style="min-height: 280px;">
