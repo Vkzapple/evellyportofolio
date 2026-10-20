@@ -49,18 +49,18 @@
     "award_date": "2025-10-25"
   },
   {
-    "id": "award-7",
-    "title": "1st Place in Essay Competition - Informatics Festival 2025 @ Universitas Padjajarang Bandung",
-    "organization": "UNPAD",
-    "date": "October 2025",
-    "award_date": "2025-10-23"
-  },
-  {
     "title": "1st Place Sunbeam Hackathon",
     "organization": null,
     "date": "August 2026",
     "award_date": "2026-08-29",
     "id": "1st-place-sunbeam-hackathon"
+  },
+  {
+    "id": "award-7",
+    "title": "1st Place in Essay Competition - Informatics Festival 2025 @ Universitas Padjajarang Bandung",
+    "organization": "UNPAD",
+    "date": "October 2025",
+    "award_date": "2025-10-23"
   },
   {
     "id": "award-10",
