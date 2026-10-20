@@ -70,18 +70,18 @@
     "award_date": "2025-01-10"
   },
   {
-    "id": "award-12",
-    "title": "Grand Finalist in Website Development Competition @ Sagasitas",
-    "organization": "Sagasitas",
-    "date": "August 2024",
-    "award_date": "2024-08-14"
-  },
-  {
     "title": "Semifinalist Coding & Algorithms Tournament 2026 (CAT)",
     "organization": "Ecommurz & CSRelatedCompetitions",
     "date": "May 2026",
     "award_date": "2026-05-16",
     "id": "semifinalist-coding-algorithms-tournament-2026-cat"
+  },
+  {
+    "id": "award-12",
+    "title": "Grand Finalist in Website Development Competition @ Sagasitas",
+    "organization": "Sagasitas",
+    "date": "August 2024",
+    "award_date": "2024-08-14"
   },
   {
     "id": "award-20",
