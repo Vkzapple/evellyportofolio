@@ -77,6 +77,13 @@
     "award_date": "2025-01-10"
   },
   {
+    "title": "1st Place Sunbeam Hackathon",
+    "organization": null,
+    "date": "August 2026",
+    "award_date": "2026-08-29",
+    "id": "1st-place-sunbeam-hackathon"
+  },
+  {
     "id": "award-12",
     "title": "Grand Finalist in Website Development Competition @ Sagasitas",
     "organization": "Sagasitas",
@@ -89,13 +96,6 @@
     "organization": "kemendikbud",
     "date": "2022",
     "award_date": "2022-02-10"
-  },
-  {
-    "title": "1st Place Sunbeam Hackathon",
-    "organization": null,
-    "date": "August 2026",
-    "award_date": "2026-08-29",
-    "id": "1st-place-sunbeam-hackathon"
   },
   {
     "id": "award-22",
