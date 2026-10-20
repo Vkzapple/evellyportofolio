@@ -28,18 +28,18 @@
     "award_date": "2026-02-15"
   },
   {
-    "id": "award-18",
-    "title": "2nd Place in Scientific Paper - NITRO KIR @ SMAN 2 Jakarta",
-    "organization": "KIR-Nitro",
-    "date": "January 2026",
-    "award_date": "2026-01-24"
-  },
-  {
     "title": "Semifinalist Coding & Algorithms Tournament 2026 (CAT)",
     "organization": "Ecommurz & CSRelatedCompetitions",
     "date": "May 2026",
     "award_date": "2026-05-16",
     "id": "semifinalist-coding-algorithms-tournament-2026-cat"
+  },
+  {
+    "id": "award-18",
+    "title": "2nd Place in Scientific Paper - NITRO KIR @ SMAN 2 Jakarta",
+    "organization": "KIR-Nitro",
+    "date": "January 2026",
+    "award_date": "2026-01-24"
   },
   {
     "id": "award-14",
