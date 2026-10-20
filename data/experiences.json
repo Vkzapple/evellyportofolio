@@ -30,14 +30,14 @@
     "date": "January 2025 - May 2025"
   },
   {
-    "id": "exp-3",
-    "title": "Student AI & IoT Engineer @ Samsung Innovation Campus 2025",
-    "date": "January 2025 - June 2025"
-  },
-  {
     "title": "LKS Nasional Ekshibisi Kompetisi Kecerdasaan Artifisial - Kemendikdasmen (Puspresnas)",
     "date": "June - July 2026",
     "id": "lks-nasional-ekshibisi-kompetisi-kecerdasaan-artifisial"
+  },
+  {
+    "id": "exp-3",
+    "title": "Student AI & IoT Engineer @ Samsung Innovation Campus 2025",
+    "date": "January 2025 - June 2025"
   },
   {
     "title": "Software Engineering Student @ SMKN 1 Jakarta",
