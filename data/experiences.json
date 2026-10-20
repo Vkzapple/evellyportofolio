@@ -20,14 +20,14 @@
     "id": "president-engineering-researcher-of-boedi-oetomo-kir-erobo"
   },
   {
-    "id": "exp-1",
-    "title": "AWS Back-End Academy @ DBS Foundation",
-    "date": "July 2025 - August 2025"
-  },
-  {
     "title": "LKS Nasional Ekshibisi Kompetisi Kecerdasaan Artifisial - Kemendikdasmen (Puspresnas)",
     "date": "June - July 2026",
     "id": "lks-nasional-ekshibisi-kompetisi-kecerdasaan-artifisial"
+  },
+  {
+    "id": "exp-1",
+    "title": "AWS Back-End Academy @ DBS Foundation",
+    "date": "July 2025 - August 2025"
   },
   {
     "id": "exp-2",
