@@ -49,18 +49,18 @@
     "award_date": "2025-10-23"
   },
   {
-    "id": "award-10",
-    "title": "3rd Place in Youth Scientific Writing – Technology Innovation @  DISPORA Jakarta Pusat",
-    "organization": "DISPORA",
-    "date": "July 2025",
-    "award_date": "2025-07-17"
-  },
-  {
     "title": "Semifinalist Coding & Algorithms Tournament 2026 (CAT)",
     "organization": "Ecommurz & CSRelatedCompetitions",
     "date": "May 2026",
     "award_date": "2026-05-16",
     "id": "semifinalist-coding-algorithms-tournament-2026-cat"
+  },
+  {
+    "id": "award-10",
+    "title": "3rd Place in Youth Scientific Writing – Technology Innovation @  DISPORA Jakarta Pusat",
+    "organization": "DISPORA",
+    "date": "July 2025",
+    "award_date": "2025-07-17"
   },
   {
     "id": "award-26",
