@@ -40,3 +40,40 @@ Dashboard (admin/) ──commit──▶ GitHub repo ──auto deploy──▶ 
 - Skema field tiap collection didefinisikan di `admin/admin.js` pada objek `COLLECTIONS` — mau menambah field baru cukup edit di situ.
 - Frontend (`script.js`) membaca `data/*.json`, tidak lagi memanggil Strapi.
 - Folder `portfolio-cms/` (Strapi lama) sudah tidak dipakai dan boleh dihapus.
+
+## Build / prerender (SSG)
+
+Halaman publik (`index.html`, `projects.html`, `writings.html`, `about.html`) memakai
+**hasil prerender**: isi `data/*.json` disuntikkan ke HTML statis + JSON-LD oleh
+`tools/build.js`. Tujuannya supaya crawler yang tidak menjalankan JavaScript
+(GPTBot, ClaudeBot, PerplexityBot, Google-Extended) tetap bisa membaca konten.
+
+Alur setelah edit di dashboard:
+
+```bash
+npm run build     # regenerasi HTML statis + JSON-LD, lalu compile Tailwind
+npm run check     # validasi canonical, og:url, JSON-LD, dan isi prerender
+```
+
+Setelah itu commit + push seperti biasa.
+
+Di Cloudflare Pages, set:
+
+- **Build command:** `npm run build`
+- **Build output directory:** `/`
+
+Dengan begitu setiap commit dari dashboard otomatis memicu prerender ulang.
+Kalau build command dikosongkan, situs tetap jalan (HTML hasil build terakhir sudah
+ter-commit dan browser tetap menghidrasi data terbaru via `script.js`), tetapi versi
+yang dilihat crawler akan tertinggal sampai build dijalankan manual.
+
+### Struktur file
+
+| File | Fungsi |
+|---|---|
+| `assets/render.js` | Template HTML + generator JSON-LD (dipakai browser **dan** build) |
+| `tools/build.js` | Prerender: isi marker `<!-- build:...:start/end -->` dan blok JSON-LD |
+| `tools/check.js` | Pemeriksaan hasil build |
+| `assets/tailwind.src.css` | Sumber Tailwind (`@tailwind base/components/utilities`) |
+| `assets/tailwind.css` | Hasil compile — jangan diedit manual |
+

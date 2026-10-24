@@ -1,0 +1,18 @@
+{
+  "name": "evellycom",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Portfolio Evelly Khanzania Putri — static site with SSG prerender from the /admin CMS JSON",
+  "scripts": {
+    "build:html": "node tools/build.js",
+    "build:css": "tailwindcss -i ./assets/tailwind.src.css -o ./assets/tailwind.css --minify",
+    "build": "npm run build:html && npm run build:css",
+    "watch:css": "tailwindcss -i ./assets/tailwind.src.css -o ./assets/tailwind.css --watch",
+    "serve": "npx --yes serve . -l 4173",
+    "check": "node tools/check.js"
+  },
+  "devDependencies": {
+    "tailwindcss": "3.4.17"
+  }
+}
