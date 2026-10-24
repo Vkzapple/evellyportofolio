@@ -63,15 +63,15 @@ Di Cloudflare Pages, set:
 - **Build output directory:** `/`
 
 Dengan begitu setiap commit dari dashboard otomatis memicu prerender ulang.
-Kalau build command dikosongkan, situs tetap jalan (HTML hasil build terakhir sudah
-ter-commit dan browser tetap menghidrasi data terbaru via `script.js`), tetapi versi
-yang dilihat crawler akan tertinggal sampai build dijalankan manual.
+Kalau build command dikosongkan, situs tetap jalan memakai HTML hasil build terakhir
+yang sudah ter-commit, tetapi konten baru dari CMS tidak akan muncul sampai
+`npm run build` dijalankan (lokal atau di CI).
 
 ### Struktur file
 
 | File | Fungsi |
 |---|---|
-| `assets/render.js` | Template HTML + generator JSON-LD (dipakai browser **dan** build) |
+| `assets/render.js` | Template HTML + generator JSON-LD (hanya dipakai saat build) |
 | `tools/build.js` | Prerender: isi marker `<!-- build:...:start/end -->` dan blok JSON-LD |
 | `tools/check.js` | Pemeriksaan hasil build |
 | `assets/tailwind.src.css` | Sumber Tailwind (`@tailwind base/components/utilities`) |

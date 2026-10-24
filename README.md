@@ -30,8 +30,8 @@ Butuh Node.js 18+.
 
 1. Edit konten di `/admin` → **Simpan & Publish** (commit ke GitHub).
 2. Cloudflare Pages menjalankan `npm run build` (set sebagai build command).
-3. Hasil prerender tayang. `script.js` tetap menghidrasi ulang dari JSON di browser,
-   jadi perubahan langsung terlihat tanpa menunggu build.
+3. Hasil prerender tayang. `script.js` hanya menangani animasi & filter —
+   halaman tidak melakukan `fetch`, jadi tetap jalan walau dibuka via `file://`.
 
 ## Struktur
 
@@ -41,8 +41,8 @@ Butuh Node.js 18+.
 | `projects.html` | Daftar proyek + filter kategori |
 | `writings.html` | Karya tulis & publikasi |
 | `about.html` | Profil |
-| `script.js` | Matrix canvas, typing effect, menu mobile, filter, hidrasi data |
-| `assets/render.js` | Template HTML + generator schema.org (dipakai browser & build) |
+| `script.js` | Matrix canvas, typing effect, menu mobile, filter, reveal awards (classic script, tanpa import/fetch) |
+| `assets/render.js` | Template HTML + generator schema.org — **hanya dipakai saat build** |
 | `assets/tailwind.src.css` → `assets/tailwind.css` | Sumber & hasil compile Tailwind (tanpa CDN) |
 | `tools/build.js` | Prerender SSG |
 | `tools/check.js` | Pemeriksaan canonical / og:url / JSON-LD / isi prerender |

@@ -1,10 +1,9 @@
 // =====================================================================
-//  GRENVIS/evellyCom — shared renderers
-//  Dipakai oleh DUA sisi:
-//   1. tools/build.js  -> prerender HTML statis (SSG) supaya crawler
-//                         yang tidak menjalankan JS tetap melihat konten.
-//   2. script.js       -> hydrate di browser setelah fetch JSON.
-//  Satu sumber template = tidak ada markup ganda / drift.
+//  evellyCom — shared renderers (BUILD ONLY)
+//  File ini dijalankan oleh tools/build.js (Node) untuk menghasilkan
+//  HTML statis + JSON-LD. Tidak dimuat oleh browser.
+//  script.js sengaja dibuat classic script tanpa import supaya halaman
+//  tetap jalan walau dibuka langsung dari file://
 // =====================================================================
 
 export const SITE_URL = "https://evekz.pages.dev";
