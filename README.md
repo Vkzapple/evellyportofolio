@@ -47,6 +47,8 @@ Butuh Node.js 18+.
 | `tools/build.js` | Prerender SSG |
 | `tools/check.js` | Pemeriksaan canonical / og:url / JSON-LD / isi prerender |
 | `data/*.json` | Sumber konten (dikelola CMS) |
+| `assets/docs/` | PDF & DOCX (CV, karya tulis, esai) |
+| `_redirects` | Redirect 301 dari path PDF lama di root ke `assets/docs/` |
 | `admin/` | Dashboard CMS (GitHub Contents API, tanpa backend) |
 
 ## SEO

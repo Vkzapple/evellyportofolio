@@ -51,7 +51,7 @@ const COLLECTIONS = {
     fields: [
       { key: "title", label: "Judul Tulisan", type: "text", required: true },
       { key: "description", label: "Deskripsi", type: "textarea", required: true },
-      { key: "link", label: "Link file PDF (mis. 'sigema_wm.pdf') atau URL", type: "text" },
+      { key: "link", label: "Link file PDF (mis. 'assets/docs/sigema_wm.pdf') atau URL", type: "text" },
     ],
   },
 };

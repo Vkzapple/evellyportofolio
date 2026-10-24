@@ -6,6 +6,7 @@
 // =====================================================================
 
 import { readFile } from "node:fs/promises";
+import { existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -90,6 +91,35 @@ for (const page of PAGES) {
 
   const words = visibleText(html).split(" ").length;
   console.log(`  INFO  ${words} kata terlihat tanpa JavaScript`);
+}
+
+// --- link internal: file yang dirujuk harus benar-benar ada ---
+console.log("\nLink internal");
+const broken = [];
+
+for (const page of PAGES) {
+  const html = await readFile(path.join(ROOT, page.file), "utf8");
+  const refs = [...html.matchAll(/(?:href|src)="([^"]+)"/g)].map((m) => m[1]);
+
+  for (const ref of new Set(refs)) {
+    if (/^(https?:|mailto:|tel:|data:|#|\/\/)/.test(ref)) continue;
+    const clean = decodeURIComponent(ref.split(/[?#]/)[0].replace(/^\.\//, ""));
+    if (!clean) continue;
+    if (!existsSync(path.join(ROOT, clean))) broken.push(`${page.file} -> ${ref}`);
+  }
+}
+
+const writings = JSON.parse(await readFile(path.join(ROOT, "data", "writings.json"), "utf8"));
+for (const w of writings) {
+  if (!w.link || /^(https?:|mailto:)/.test(w.link)) continue;
+  const clean = decodeURIComponent(w.link.split(/[?#]/)[0]);
+  if (!existsSync(path.join(ROOT, clean))) broken.push(`data/writings.json -> ${w.link}`);
+}
+
+if (broken.length) {
+  broken.forEach((b) => bad(`link mati: ${b}`));
+} else {
+  ok("semua link/file lokal yang dirujuk ada");
 }
 
 console.log("");

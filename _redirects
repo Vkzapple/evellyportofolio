@@ -1,0 +1,16 @@
+# Redirect permanen: file yang dulu ada di root sekarang di /assets/docs/
+# Format Cloudflare Pages: <from> <to> <status>
+
+/broday.pdf /assets/docs/broday.pdf 301
+/Evelly_resume.pdf /assets/docs/Evelly_resume.pdf 301
+/IFestEsai_EvellyKhanzaniaPutri_WM.pdf /assets/docs/IFestEsai_EvellyKhanzaniaPutri_WM.pdf 301
+/KTI_Insighta.pdf /assets/docs/KTI_Insighta.pdf 301
+/Ogg_ITB.pdf /assets/docs/Ogg_ITB.pdf 301
+/Ogg_ITB_wm.docx /assets/docs/Ogg_ITB_wm.docx 301
+/Ogg_ITB_WM.pdf /assets/docs/Ogg_ITB_WM.pdf 301
+/Resume_Automation_English.pdf /assets/docs/Resume_Automation_English.pdf 301
+/SIC%20-%20Curion%20%281%29.pdf /assets/docs/SIC%20-%20Curion%20%281%29.pdf 301
+/sigema.docx /assets/docs/sigema.docx 301
+/sigema.pdf /assets/docs/sigema.pdf 301
+/sigema_wm.pdf /assets/docs/sigema_wm.pdf 301
+/xplora.pdf /assets/docs/xplora.pdf 301
