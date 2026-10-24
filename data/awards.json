@@ -77,18 +77,18 @@
     "award_date": "2025-01-10"
   },
   {
-    "id": "award-12",
-    "title": "Grand Finalist in Website Development Competition @ Sagasitas",
-    "organization": "Sagasitas",
-    "date": "August 2024",
-    "award_date": "2024-08-14"
-  },
-  {
     "title": "Finalist DATATHON 2026 @ RISTEK FASILKOM UI",
     "organization": "Fakultas Ilmu Komputer Universitas Indonesia",
     "date": "August 2026",
     "award_date": "2026-08-30",
     "id": "finalist-datathon-2026-ristek-fasilkom-ui"
+  },
+  {
+    "id": "award-12",
+    "title": "Grand Finalist in Website Development Competition @ Sagasitas",
+    "organization": "Sagasitas",
+    "date": "August 2024",
+    "award_date": "2024-08-14"
   },
   {
     "id": "award-20",
